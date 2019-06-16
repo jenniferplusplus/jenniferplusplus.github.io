@@ -4,10 +4,10 @@ I'm a full stack software engineer. I work mostly in C# and Javascript, and I'm 
 
 [Read more on my Blog](https://jenniferplusplus.com)
 
-[See my resume online](jenniferplusplus.github.io)
+[See my resume online](https://jenniferplusplus.github.io/)
 
-[Download as PDF](https://github.com/jenniferplusplus/jenniferplusplus.github.io)
-[Download as HTML](https://github.com/jenniferplusplus/jenniferplusplus.github.io)
+<a href="https://raw.githubusercontent.com/jenniferplusplus/jenniferplusplus.github.io/master/jennifer.html" download>Download as HTML</a>
+<a href="https://raw.githubusercontent.com/jenniferplusplus/jenniferplusplus.github.io/master/jennifer.pdf" download>Download as PDF</a>
 
 ## Tech Interests
 

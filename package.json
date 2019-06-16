@@ -8,7 +8,7 @@
     "build": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.all -t ./node_modules/fresh-theme-positive-plusplus",
     "start": "npm run build",
     "html": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.html -t ./node_modules/fresh-theme-positive-plusplus",
-    "clean": "rm -rf build/*"
+    "clean": "rm -rf build/"
   },
   "author": "Jennifer Moore <jenniferplusplus@gmail.com>",
   "license": "MIT",

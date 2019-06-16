@@ -4,6 +4,7 @@
 set -e
 
 # build
+npm run clean
 npm run build
 cp readme.md build/readme.md
 
@@ -17,8 +18,9 @@ cp jennifer.html index.html
 git init
 git add -A
 git commit -m 'deploy'
+git remote add origin git@github.com:jenniferplusplus/jenniferplusplus.github.io.git
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:jenniferplusplus/jenniferplusplus.github.io.git dev:master
+git push -f  origin master
 
 cd -
