@@ -6,7 +6,6 @@ I'm a full stack software engineer. I work mostly in C# and Javascript, and I'm 
 
 [See my resume online](https://jenniferplusplus.github.io/)
 
-<a href="https://raw.githubusercontent.com/jenniferplusplus/jenniferplusplus.github.io/master/jennifer.html" download>Download as HTML</a>
 <a href="https://raw.githubusercontent.com/jenniferplusplus/jenniferplusplus.github.io/master/jennifer.pdf" download>Download as PDF</a>
 
 ## Tech Interests
