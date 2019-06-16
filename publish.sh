@@ -12,15 +12,11 @@ cp readme.md build/readme.md
 cd build
 cp jennifer.html index.html
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-
+# commit and push to master
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m "deploy $(date +%Y%m%d)"
 git remote add origin git@github.com:jenniferplusplus/jenniferplusplus.github.io.git
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f  origin master
+git push -f origin master
 
 cd -
