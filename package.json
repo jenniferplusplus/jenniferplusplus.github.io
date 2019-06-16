@@ -1,0 +1,19 @@
+{
+  "name": "jenniferplusplus",
+  "version": "1.0.0",
+  "description": "Jennifer Moore's Resume",
+  "main": "",
+  "scripts": {
+    "test": "echo \"no tests\" && exit 1",
+    "build": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.all -t ./node_modules/fresh-theme-positive-plusplus",
+    "start": "npm run build",
+    "html": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.html -t ./node_modules/fresh-theme-positive-plusplus",
+    "clean": "rm -rf build/*"
+  },
+  "author": "Jennifer Moore <jenniferplusplus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fresh-theme-positive-plusplus": "git+https://github.com/jenniferplusplus/fresh-theme-positive-plusplus.git",
+    "hackmyresume": "^1.9.0-beta"
+  }
+}

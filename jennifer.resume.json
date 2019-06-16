@@ -1,0 +1,205 @@
+{
+  "name": "Jennifer Moore",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Software Engineer",
+    "brief": "I am an experienced software engineer with a demonstrated history of implementing engineering best practices across several industries. I'm most highly skilled in C#/.Net and Javascript/Node.js and enjoy working across the full stack of software ecosystems. I like to work on high performing teams, and I sincerely believe that continuous testing and delivery with a culture of quality and ownership are what enable that kind of performance.",
+    "image": ""
+  },
+  "contact": {
+    "website": "https://jenniferplusplus.com",
+    "phone": "1-817-264-7347",
+    "email": "jenniferplusplus@gmail.com",
+    "other": ["https://linkedin.com/in/jenniferplusplus"]
+  },
+  "location": {
+    "address": "",
+    "city": "DFW",
+    "region": "Texas",
+    "code": "76021",
+    "country": "US"
+  },
+  "social": [
+    {
+      "label": "",
+      "network": "GitHub",
+      "user": "jenniferplusplus",
+      "url": "https://github.com/jenniferplusplus"
+    }
+  ],
+  "employment": {
+    "history": [
+      {
+        "employer": "Solera",
+        "url": "http://solera.com",
+        "position": "Senior Software Engineer",
+        "summary": "At Solera, I worked on customer facing products dealing with state and local laws, taxes, and fees related to vehicle sales, registration, and titling. During my time here, I have continually advocated for greater adoption of engineering best practices. I have also coordinated with other teams in designing new service oriented architectures.",
+        "start": "2018-10-01",
+        "keywords": [
+          "C#", "Azure DevOps", "SQL", "IIS", "WCF", "Web API", "REST", "Jira", "ASP.NET", "UWP"
+        ],
+        "highlights": [
+          "Drove improvements in the development process and adoption of best practices, especially code review and unit testing.",
+          "Worked on a data normalization effort to enable major code refactoring to reduce duplication.",
+          "Collaborated across multiple teams to define common conventions and interfaces for REST microservices.",
+          "Implemented intake and cleanup utilities for 3rd party data."
+        ]
+      },
+      {
+        "employer": "Allegro Development",
+        "url": "https://www.allegrodev.com/",
+        "position": "Principal Software Engineer",
+        "summary": "At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and devops.",
+        "start": "2017-11-01",
+        "end": "2018-09-01",
+        "keywords": [
+          "C#", "WPF", "WCF", "SQL", "Visual Studio", "TFS"
+        ],
+        "highlights": [
+          "Designed and implemented scripting and automation features in the application. These are used by external clients to ensure data integrity and internally by QA and client services.",
+          "Worked primarily with C# and MS SQL Server.",
+          "Mentored junior developers on design principles and best practices.",
+          "Worked with product managers and development directors to understand product requirements from both internal and external users.",
+          "Improved the packaging and deployment process for development builds to remove manual operations and facilitate CI/CD."
+        ]
+      },
+      {
+        "employer": "ParkHub",
+        "url": "http://parkhub.com/",
+        "position": "Senior Software Engineer",
+        "summary": "At Parkhub, I built the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I worked with IoT sensors, microservices, and mobile-first offline-first applications.",
+        "start": "2017-03-01",
+        "end": "2017-09-01",
+        "keywords": [
+          "Node.js", "React", "Redux", "Kafka", "Microservices", "Event Sourcing", "Postgres SQL", "Mongodb", "Docker", "Kubernetes", "DevOps", "Agile"
+        ],
+        "highlights": [
+          "Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.",
+          "Created a new architecture based on microservices. The architecture is deployed in Docker containers using Kubernetes for orchestration. It uses an event sourced model powered by Kafka, with individual services built primarily in Node.JS.",
+          "Worked with backend technologies including Node.JS, GraphQL, Mongo, and Postgres.",
+          "Worked with Javascript frameworks, primarily React, Redux, and RxJS.",
+          "Enhanced CI pipelines to be faster and more reliable while producing better metadata and more clear explanations of failures during build, test, and deployment phases.",
+          "Worked in a Scrum-like process. Collaborated on requirements gathering and story design. Provided estimates for planned stories. Worked within 2-week sprint cycles.",
+          "Promoted a reactive software architecture which reflects the core event stream of the underlying infrastructure."
+        ]
+      },
+      {
+        "employer": "Fidelity",
+        "url": "http://fidelity.com/",
+        "position": "Senior Software Engineer",
+        "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with AngularJS and NodeJS.",
+        "start": "2014-06-01",
+        "end": "2017-03-01",
+        "keywords": [
+          "Angular 1.x", "RxJS", "Protractor", "Selenium", "Node.js", "Express", "C#", "CI/CD", "Jenkins", "Jira", "DevOps", "Scrum", "REST"
+        ],
+        "highlights": [
+          "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development and support after release.",
+          "Worked with C#, Angular, Angular Reactive Extensions, Node.js, and Express.",
+          "Maintained greater than 90% test coverage for these projects.",
+          "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
+          "Estimated scope of stories and collaborated with the team to share work and meet sprint goals.",
+          "Promoted best practices using functional techniques and MVVM design patterns.",
+          "Implemented and maintained the CI/CD pipeline."
+        ]
+      },
+      {
+        "employer": "Ambit Energy",
+        "url": "https://www.ambitenergy.com/",
+        "position": "Software Developer",
+        "summary": "During my contract at Ambit I worked on several projects to support back office administrative and development tasks. I built desktop tools to facilitate repetitive work as well as supporting the rest of the development team in building and configuring new build and test tools.",
+        "start": "2013-10-01",
+        "end": "2014-06-01",
+        "keywords": [
+          "MS Coded UI", "C#", "Selenium", "SQL", "REST", "WPF", "JQuery", "Entity Framework"
+        ],
+        "highlights": [
+          "Developed and helped design a modular, menu-and-data-driven, automated test utility called Testify.",
+          "Developed Testify modules for interacting with Windows UIs, Web UIs, SQL databases, and REST services.",
+          "Integrated with TFS for defect tracking and test case management.",
+          "Created several utilities to automate common tasks for internal business users."
+        ]
+      },
+      {
+        "employer": "Think Finance",
+        "url": "https://www.thinkfinance.com/",
+        "position": "QA Automation Engineer",
+        "summary": "At Think Finance, I implemented an automated testing framework in C# based on the open source tools Fitnesse and Selenium Webdriver.  This framework was used to perform full integration tests of the Think Finance IT SoA platform, as well as E2E functional tests of the line of business applications it supports.",
+        "start": "2012-06-01",
+        "end": "2013-06-01",
+        "keywords": [
+          "C#", "Selenium", "Entity Framework", "Fitnesse"
+        ],
+        "highlights": [
+          "Implemented the UI and database access components of the test framework using Selenium Webdriver and MS Entity Framework.",
+          "Served as SME for QA teams regarding the automated test framework.",
+          "Shortened test cycles by developing and documenting standards and practices for writing test cases and defects.",
+          "Implemented a full automated functional regression test suite for a loan application processing application."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "degree": "no degree",
+    "history": [
+      {
+        "institution": "University of Texas at Arlington",
+        "title": "BS Software Engineering",
+        "url": "http://uta.edu",
+        "start": "2006-09",
+        "end": "2010-06",
+        "summary": "Majored in Software Engineering, no degree"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Software Development",
+        "level": "Expert",
+        "skills": [
+          "C#",
+          ".Net Framework",
+          "Javascript",
+          "Node.js",
+          "SQL",
+          "Docker",
+          "Kubernetes",
+          "Apache Kafka",
+          "React",
+          "ReactiveX",
+          "TDD/BDD"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "Expert",
+        "skills": [
+          "Continuous Integration",
+          "Jenkins",
+          "Git",
+          "TFS",
+          "Amazon Web Services",
+          "Azure DevOps"
+        ]
+      },
+      {
+        "name": "SDLC",
+        "level": "Expert",
+        "skills": [
+          "TFS",
+          "Jira",
+          "Test Case Management",
+          "Agile",
+          "Scrum",
+          "Kanban",
+          "Pivotal Tracker"
+        ]
+      }
+    ],
+    "list": []
+  }
+}
