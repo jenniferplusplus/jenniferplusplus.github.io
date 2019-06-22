@@ -201,5 +201,24 @@
       }
     ],
     "list": []
+  },
+  "service": {
+    "summary": "",
+    "history": [
+      {
+        "flavor": "volunteer",
+        "position": "General Technical Lead",
+        "organization": "Women Who Code DFW",
+        "url": "https://www.womenwhocode.com/dfw",
+        "start": "2019-06",
+        "summary": "Members of Women Who Code can become Technical Leads for their chapters by active participation and support of the chapter and community.",
+        "highlights": [
+          "Gave a tech talk, <a href=\"https://jenniferplusplus.com/portfolio/\">Unit Testing: How do I even?</a>",
+          "Volunteered at events by greeting new members, coordinating food deliveries, and filming.",
+          "Supported special events by helping with mock interviews and advising during hackathons.",
+          "Actively participate in the group Slack server."
+        ]
+      }
+    ]
   }
 }
