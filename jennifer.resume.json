@@ -33,11 +33,24 @@
   "employment": {
     "history": [
       {
+        "employer": "Charles Schwab",
+        "url": "http://schwab.com",
+        "position": "Senior Software Engineer",
+        "summary": "As the technical lead for two development teams in the Retail Web Technology group, in addition to performing development work of my own I provide technical guidance and leadership, set standards for development practices, and coordinate with other development teams. I also work closely with other technical teams including software architecture, governance, security, quality assurance, and operations.",
+        "start": "2019-08-26",
+        "keywords": [
+          "C#", "Angular", "IIS", "Web API", "REST", "Jira", ".Net Core", "TypeScript"
+        ],
+        "highlights": [
+        ]
+      },
+      {
         "employer": "Solera",
         "url": "http://solera.com",
         "position": "Senior Software Engineer",
         "summary": "At Solera, I worked on customer facing products dealing with state and local laws, taxes, and fees related to vehicle sales, registration, and titling. During my time here, I have continually advocated for greater adoption of engineering best practices. I have also coordinated with other teams in designing new service oriented architectures.",
         "start": "2018-10-01",
+        "end": "2019-08-16",
         "keywords": [
           "C#", "Azure DevOps", "SQL", "IIS", "WCF", "Web API", "REST", "Jira", "ASP.NET", "UWP"
         ],
