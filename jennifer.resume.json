@@ -13,7 +13,9 @@
     "website": "https://jenniferplusplus.com",
     "phone": "1-817-264-7347",
     "email": "contact@jenniferplusplus.com",
-    "other": ["https://linkedin.com/in/jenniferplusplus"]
+    "other": [
+      "https://linkedin.com/in/jenniferplusplus"
+    ]
   },
   "location": {
     "address": "",
@@ -39,7 +41,14 @@
         "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app. On that project, in addition to leading the development effort, I worked closely with designers and product owners, and also with other development teams doing parallel work on the mobile app and supporting infrastructure and backend services.",
         "start": "2019-08-26",
         "keywords": [
-          "C#", "Angular", "IIS", "Web API", "REST", "Jira", ".Net Core", "TypeScript"
+          "C#",
+          "Angular",
+          "IIS",
+          "Web API",
+          "REST",
+          "Jira",
+          ".Net Core",
+          "TypeScript"
         ],
         "highlights": [
           "Developed internal tooling to simplify the developer workflow and speed up onboarding new developers and new applications.",
@@ -58,7 +67,16 @@
         "start": "2018-10-01",
         "end": "2019-08-16",
         "keywords": [
-          "C#", "Azure DevOps", "SQL", "IIS", "WCF", "Web API", "REST", "Jira", "ASP.NET", "UWP"
+          "C#",
+          "Azure DevOps",
+          "SQL",
+          "IIS",
+          "WCF",
+          "Web API",
+          "REST",
+          "Jira",
+          "ASP.NET",
+          "UWP"
         ],
         "highlights": [
           "Drove improvements in the development process and adoption of best practices, especially code review and unit testing.",
@@ -71,49 +89,72 @@
         "employer": "Allegro Development",
         "url": "https://www.allegrodev.com/",
         "position": "Principal Software Engineer",
-        "summary": "At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and devops.",
+        "summary": "At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and DevOps.",
         "start": "2017-11-01",
         "end": "2018-09-01",
         "keywords": [
-          "C#", "WPF", "WCF", "SQL", "Visual Studio", "TFS"
+          "C#",
+          "WPF",
+          "WCF",
+          "SQL",
+          "Visual Studio",
+          "TFS"
         ],
         "highlights": [
-          "Designed and implemented scripting and automation features in the application. These are used by external clients to ensure data integrity and internally by QA and client services.",
-          "Worked primarily with C# and MS SQL Server.",
+          "Designed and implemented scripting and automation features in the application. These were used by external clients to ensure data integrity and internally by QA and client services during customer onboarding.",
           "Mentored junior developers on design principles and best practices.",
-          "Worked with product managers and development directors to understand product requirements from both internal and external users.",
-          "Improved the packaging and deployment process for development builds to remove manual operations and facilitate CI/CD."
+          "Improved the packaging and deployment process for development builds to remove manual operations and support CI/CD efforts."
         ]
       },
       {
         "employer": "ParkHub",
         "url": "http://parkhub.com/",
         "position": "Senior Software Engineer",
-        "summary": "At Parkhub, I built the next generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I worked with IoT sensors, microservices, and mobile-first offline-first applications.",
+        "summary": "At Parkhub, I built a new generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I utilized IoT sensors, microservices, and mobile-first offline-first applications. We used a lightweight scrum-like methodology.",
         "start": "2017-03-01",
         "end": "2017-09-01",
         "keywords": [
-          "Node.js", "React", "Redux", "Kafka", "Microservices", "Event Sourcing", "Postgres SQL", "Mongodb", "Docker", "Kubernetes", "DevOps", "Agile"
+          "Node.js",
+          "React",
+          "Redux",
+          "Kafka",
+          "Microservices",
+          "Event Sourcing",
+          "Postgres SQL",
+          "Mongodb",
+          "Docker",
+          "Kubernetes",
+          "DevOps",
+          "Agile"
         ],
         "highlights": [
           "Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.",
-          "Created a new architecture based on microservices. The architecture is deployed in Docker containers using Kubernetes for orchestration. It uses an event sourced model powered by Kafka, with individual services built primarily in Node.JS.",
-          "Worked with backend technologies including Node.JS, GraphQL, Mongo, and Postgres.",
-          "Worked with Javascript frameworks, primarily React, Redux, and RxJS.",
-          "Enhanced CI pipelines to be faster and more reliable while producing better metadata and more clear explanations of failures during build, test, and deployment phases.",
-          "Worked in a Scrum-like process. Collaborated on requirements gathering and story design. Provided estimates for planned stories. Worked within 2-week sprint cycles.",
-          "Promoted a reactive software architecture which reflects the core event stream of the underlying infrastructure."
+          "Contributed to the design and development of a microservices architecture based on Kafka and orchestrated with Kubernetes.",
+          "Developed front end apps, primarily using React and Redux.",
+          "Conducted code reviews and advocated for best practices related to testing and deployment."
         ]
       },
       {
         "employer": "Fidelity Investments",
         "url": "http://fidelity.com/",
         "position": "Senior Software Engineer",
-        "summary": "As a software engineer, I've contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I've continued to participate in an Agile/Scrum methodology, and I've worked mostly with AngularJS and NodeJS.",
+        "summary": "As a software engineer, I contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I continued to participate in an Agile/Scrum methodology, and I worked mostly with AngularJS and NodeJS.",
         "start": "2014-06-01",
         "end": "2017-03-01",
         "keywords": [
-          "Angular 1.x", "RxJS", "Protractor", "Selenium", "Node.js", "Express", "C#", "CI/CD", "Jenkins", "Jira", "DevOps", "Scrum", "REST"
+          "Angular 1.x",
+          "RxJS",
+          "Protractor",
+          "Selenium",
+          "Node.js",
+          "Express",
+          "C#",
+          "CI/CD",
+          "Jenkins",
+          "Jira",
+          "DevOps",
+          "Scrum",
+          "REST"
         ],
         "highlights": [
           "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development and support after release.",
@@ -129,33 +170,42 @@
         "employer": "Ambit Energy",
         "url": "https://www.ambitenergy.com/",
         "position": "Software Developer",
-        "summary": "During my contract at Ambit I worked on several projects to support back office administrative and development tasks. I built desktop tools to facilitate repetitive work as well as supporting the rest of the development team in building and configuring new build and test tools.",
+        "summary": "During my contract at Ambit I worked on several projects to support back office and development tasks. I built internal tooling including test and automation tools used by QA and other teams.",
         "start": "2013-10-01",
         "end": "2014-06-01",
         "keywords": [
-          "MS Coded UI", "C#", "Selenium", "SQL", "REST", "WPF", "JQuery", "Entity Framework"
+          "MS Coded UI",
+          "C#",
+          "Selenium",
+          "SQL",
+          "REST",
+          "WPF",
+          "JQuery",
+          "Entity Framework"
         ],
         "highlights": [
-          "Developed and helped design a modular, menu-and-data-driven, automated test utility called Testify.",
-          "Developed Testify modules for interacting with Windows UIs, Web UIs, SQL databases, and REST services.",
+          "Developed and contributed to the design of an automated test utility called Testify.",
           "Integrated with TFS for defect tracking and test case management.",
           "Created several utilities to automate common tasks for internal business users."
         ]
-      },
+      }
+    ],
+    "ancient history": [
       {
         "employer": "Think Finance",
         "url": "https://www.thinkfinance.com/",
         "position": "QA Automation Engineer",
-        "summary": "At Think Finance, I implemented an automated testing framework in C# based on the open source tools Fitnesse and Selenium Webdriver.  This framework was used to perform full integration tests of the Think Finance IT SoA platform, as well as E2E functional tests of the line of business applications it supports.",
+        "summary": "At Think Finance, I implemented an automated testing framework in C#.  This framework was used to perform full integration tests of backend systems, as well as E2E functional tests of some applications it supported.",
         "start": "2012-06-01",
         "end": "2013-06-01",
         "keywords": [
-          "C#", "Selenium", "Entity Framework", "Fitnesse"
+          "C#",
+          "Selenium",
+          "Entity Framework",
+          "Fitnesse"
         ],
         "highlights": [
           "Implemented a test framework based on Selenium Webdriver.",
-          "Served as SME for QA teams regarding the automated test framework.",
-          "Shortened test cycles by developing and documenting standards and practices for writing test cases and defects.",
           "Implemented a full automated functional regression test suite for a loan application processing application."
         ]
       }
@@ -226,6 +276,25 @@
     "history": [
       {
         "flavor": "volunteer",
+        "position": "Director",
+        "organization": "Women Who Code DFW",
+        "url": "https://www.womenwhocode.com/dfw",
+        "start": "2020-05",
+        "summary": "As a director, I am a member of the official leadership team for the DFW network of Women Who Code. I plan and organize monthly events; I coordinate with the hosts, sponsors, and presenters during the event; I recruit new hosts and speakers; and I help to grow and mentor future members of the WWC DFW leadership team.",
+        "highlights": [
+          "Joined as a member in October 2018 and volunteered frequently.",
+          "Planned and hosted a virtual discussion panel.",
+          "Planned, organized, and facilitated virtual video chats to continue to allow members to meet and socialize during the COVID-19 quarantine.",
+          "Wrote articles for the DFW network's blog.",
+          "Co-hosted numerous events organized by other directors.",
+          "Given multiple talks.",
+          "Mentored other members in professional and technical areas."
+        ]
+      }
+    ],
+    "ancient history": [
+      {
+        "flavor": "volunteer",
         "position": "General Technical Lead",
         "organization": "Women Who Code DFW",
         "url": "https://www.womenwhocode.com/dfw",
@@ -236,20 +305,6 @@
           "Gave multiple tech talks, <a href=\"https://jenniferplusplus.com/portfolio/\"><em>Unit Testing: How do I even?</em> and <em>Designing for Testability</em></a>",
           "Volunteered at events by greeting new members, coordinating food deliveries, and filming.",
           "Supported special events by helping with mock interviews and advising during hackathons."
-        ]
-      },
-      {
-        "flavor": "volunteer",
-        "position": "Director",
-        "organization": "Women Who Code DFW",
-        "url": "https://www.womenwhocode.com/dfw",
-        "start": "2020-05",
-        "summary": "As a director, I am a member of the official leadership team for the DFW network of Women Who Code. I plan and organize monthly events; I coordinate with the hosts, sponsors, and presenters during the event; I recruit new hosts and speakers; and I help to grow and mentor future members of the WWC DFW leadership team.",
-        "highlights": [
-          "Planned and hosted a virtual discussion panel",
-          "Planned, organized, and facilitated virtual video chats to continue to allow members to meet and socialize during the COVID-19 quarantine",
-          "Wrote articles for the DFW network's blog",
-          "Co-hosted numerous events organized by other directors"
         ]
       }
     ]
