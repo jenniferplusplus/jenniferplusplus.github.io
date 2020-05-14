@@ -12,7 +12,7 @@
   "contact": {
     "website": "https://jenniferplusplus.com",
     "phone": "1-817-264-7347",
-    "email": "jenniferplusplus@gmail.com",
+    "email": "contact@jenniferplusplus.com",
     "other": ["https://linkedin.com/in/jenniferplusplus"]
   },
   "location": {
@@ -35,13 +35,19 @@
       {
         "employer": "Charles Schwab",
         "url": "http://schwab.com",
-        "position": "Senior Software Engineer",
-        "summary": "As the technical lead for two development teams in the Retail Web Technology group, in addition to performing development work of my own I provide technical guidance and leadership, set standards for development practices, and coordinate with other development teams. I also work closely with other technical teams including software architecture, governance, security, quality assurance, and operations.",
+        "position": "Principal Software Engineer",
+        "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app. On that project, in addition to leading the development effort, I worked closely with designers and product owners, and also with other development teams doing parallel work on the mobile app and supporting infrastructure and backend services.",
         "start": "2019-08-26",
         "keywords": [
           "C#", "Angular", "IIS", "Web API", "REST", "Jira", ".Net Core", "TypeScript"
         ],
         "highlights": [
+          "Developed internal tooling to simplify the developer workflow and speed up onboarding new developers and new applications.",
+          "Maintained high standards of quality and code coverage.",
+          "Developed customer facing single page apps in Angular 7 and 9.",
+          "Developed middle-tier APIs in C#/.Net Core using Web API.",
+          "Worked with other development teams to define dependencies and communicate application interfaces.",
+          "Worked with multiple stakeholders in an agile process to scope and estimate new features, improve production operations, and maintain a predictable velocity."
         ]
       },
       {
@@ -147,7 +153,7 @@
           "C#", "Selenium", "Entity Framework", "Fitnesse"
         ],
         "highlights": [
-          "Implemented the UI and database access components of the test framework using Selenium Webdriver and MS Entity Framework.",
+          "Implemented a test framework based on Selenium Webdriver.",
           "Served as SME for QA teams regarding the automated test framework.",
           "Shortened test cycles by developing and documenting standards and practices for writing test cases and defects.",
           "Implemented a full automated functional regression test suite for a loan application processing application."
@@ -224,11 +230,26 @@
         "organization": "Women Who Code DFW",
         "url": "https://www.womenwhocode.com/dfw",
         "start": "2019-06",
+        "end": "2020-05",
         "summary": "Members of Women Who Code can become Technical Leads for their chapters by active participation and support of the chapter and community.",
         "highlights": [
           "Gave multiple tech talks, <a href=\"https://jenniferplusplus.com/portfolio/\"><em>Unit Testing: How do I even?</em> and <em>Designing for Testability</em></a>",
           "Volunteered at events by greeting new members, coordinating food deliveries, and filming.",
           "Supported special events by helping with mock interviews and advising during hackathons."
+        ]
+      },
+      {
+        "flavor": "volunteer",
+        "position": "Director",
+        "organization": "Women Who Code DFW",
+        "url": "https://www.womenwhocode.com/dfw",
+        "start": "2020-05",
+        "summary": "As a director, I am a member of the official leadership team for the DFW network of Women Who Code. I plan and organize monthly events; I coordinate with the hosts, sponsors, and presenters during the event; I recruit new hosts and speakers; and I help to grow and mentor future members of the WWC DFW leadership team.",
+        "highlights": [
+          "Planned and hosted a virtual discussion panel",
+          "Planned, organized, and facilitated virtual video chats to continue to allow members to meet and socialize during the COVID-19 quarantine",
+          "Wrote articles for the DFW network's blog",
+          "Co-hosted numerous events organized by other directors"
         ]
       }
     ]
