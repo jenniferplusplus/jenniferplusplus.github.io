@@ -37,7 +37,7 @@
       {
         "employer": "Charles Schwab",
         "url": "http://schwab.com",
-        "position": "Principal Software Engineer",
+        "position": "Staff Software Engineer",
         "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app. On that project, in addition to leading the development effort, I worked closely with designers and product owners, and also with other development teams doing parallel work on the mobile app and supporting infrastructure and backend services.",
         "start": "2019-08-26",
         "keywords": [
@@ -88,7 +88,7 @@
       {
         "employer": "Allegro Development",
         "url": "https://www.allegrodev.com/",
-        "position": "Principal Software Engineer",
+        "position": "Staff Software Engineer",
         "summary": "At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and DevOps.",
         "start": "2017-11-01",
         "end": "2018-09-01",
