@@ -17,6 +17,6 @@ git init
 git add -A
 git commit -m "deploy $(date +%Y%m%d)"
 git remote add origin git@github.com:jenniferplusplus/jenniferplusplus.github.io.git
-git push -f origin master
+git push -f origin main
 
 cd -
