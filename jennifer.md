@@ -1,0 +1,104 @@
+Jennifer Moore
+============
+Email: contact@jenniferplusplus.com
+Tel: 1-817-264-7347
+Web: https://jenniferplusplus.com
+
+I am an experienced full stack software engineer with a demonstrated history of implementing engineering best practices across several industries. I'm most highly skilled in C#/.Net and Javascript/Node.js. I like to work on high performing teams, and I sincerely believe that continuous testing and delivery with a culture of quality and ownership are what enable that kind of performance.
+
+## SKILLS
+
+  - Software Development: C# .Net Framework Javascript Node.js SQL Docker Kubernetes Apache Kafka React ReactiveX TDD/BDD 
+  - DevOps: Continuous Integration Jenkins Git TFS Amazon Web Services Azure DevOps 
+  - SDLC: TFS Jira Test Case Management Agile Scrum Kanban Pivotal Tracker 
+
+## EMPLOYMENT
+
+### *Staff Software Engineer*, [Charles Schwab](http://schwab.com) (2019-08 — Present)
+
+I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app.
+  - Developed internal tooling to simplify the developer workflow and speed up onboarding new developers and new applications.
+  - Maintained high standards of quality and code coverage.
+  - Developed customer facing single page apps in Angular 7 and 9.
+  - Developed middle-tier APIs in C#/.Net Core using Web API.
+  - Worked with other development teams to define dependencies and communicate application interfaces.
+
+### *Senior Software Engineer*, [Solera](http://solera.com) (2018-10 — 2019-08)
+
+At Solera, I worked on customer facing products dealing with state and local laws, taxes, and fees related to vehicle sales, registration, and titling. During my time here, I have continually advocated for greater adoption of engineering best practices. I have also coordinated with other teams in designing new service oriented architectures.
+  - Drove improvements in the development process and adoption of best practices, especially code review and unit testing.
+  - Worked on a data normalization effort to enable major code refactoring to reduce duplication.
+  - Collaborated across multiple teams to define common conventions and interfaces for REST microservices.
+  - Implemented intake and cleanup utilities for 3rd party data.
+
+### *Staff Software Engineer*, [Allegro Development](https://www.allegrodev.com/) (2017-11 — 2018-09)
+
+At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and DevOps.
+  - Designed and implemented scripting and automation features in the application. These were used by external clients to ensure data integrity and internally by QA and client services during customer onboarding.
+  - Mentored junior developers on design principles and best practices.
+  - Improved the packaging and deployment process for development builds to remove manual operations and support CI/CD efforts.
+
+### *Senior Software Engineer*, [ParkHub](http://parkhub.com/) (2017-03 — 2017-09)
+
+At Parkhub, I built a new generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I utilized IoT sensors, microservices, and mobile-first offline-first applications. We used a lightweight scrum-like methodology.
+  - Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.
+  - Contributed to the design and development of a microservices architecture based on Kafka and orchestrated with Kubernetes.
+  - Developed front end apps, primarily using React and Redux.
+  - Conducted code reviews and advocated for best practices related to testing and deployment.
+
+### *Senior Software Engineer*, [Fidelity Investments](http://fidelity.com/) (2014-06 — 2017-03)
+
+As a software engineer, I contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I continued to participate in an Agile/Scrum methodology, and I worked mostly with AngularJS and NodeJS.
+  - Designed and implemented multiple projects including customer facing apps and middleware services with millions of users.
+  - Maintained greater than 90% test coverage for these projects.
+  - Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.
+  - Estimated scope of stories and collaborated with the team to share work and meet sprint goals.
+  - Promoted best practices using functional techniques and MVVM design patterns.
+  - Implemented and maintained the CI/CD pipeline.
+
+### *Software Developer*, [Ambit Energy](https://www.ambitenergy.com/) (2013-10 — 2014-06)
+
+During my contract at Ambit I worked on several projects to support back office and development tasks. I built internal tooling including test and automation tools used by QA and other teams.
+  - Developed and contributed to the design of an automated test utility called Testify.
+  - Integrated with TFS for defect tracking and test case management.
+  - Created several utilities to automate common tasks for internal business users.
+
+
+
+
+## EDUCATION
+
+### [University of Texas at Arlington](http://uta.edu) (2006-09 — 2010-06)
+
+Majored in Software Engineering, did not graduate
+
+
+
+
+
+
+
+## SERVICE
+
+### *Director*, [Women Who Code DFW](https://www.womenwhocode.com/dfw) (2020-05 — 2020-10)
+
+As a director, I was a member of the official leadership team for the DFW network of Women Who Code. I planned and organized monthly events; I coordinated with the hosts, sponsors, and presenters during the event; I recruited new hosts and speakers; and I helped to grow and mentor future members of the WWC DFW leadership team.
+  - Joined as a member in October 2018 and volunteered frequently.
+  - Planned and hosted a virtual discussion panel and multiple tech talks.
+  - Wrote articles for the DFW network's blog.
+  - Gave multiple tech talks.
+  - Mentored other members in professional and technical areas.
+
+### *Player*, [Dungeons & Dragons](https://dnd.wizards.com/) (2000-10 — Present)
+
+I've been playing and running D&D and other tabletop role playing games regularly for over 20 years. Through that hobby, I've gained a great deal of experience in working with small groups toward a common goal. Among the many skills I've learned, I feel these are particularly valuable.
+  - Quickly learning and teaching complex systems
+  - Sharing focus and responsibility with group members
+  - Finding balance between keeping focus on a goal with allowing exploration and discovery
+  - Maintaining group interest and engagement
+
+
+
+
+
+
