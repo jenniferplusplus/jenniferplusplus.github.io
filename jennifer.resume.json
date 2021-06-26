@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Software Engineer",
-    "brief": "I am an experienced software engineer with a demonstrated history of implementing engineering best practices across several industries. I'm most highly skilled in C#/.Net and Javascript/Node.js and enjoy working across the full stack of software ecosystems. I like to work on high performing teams, and I sincerely believe that continuous testing and delivery with a culture of quality and ownership are what enable that kind of performance.",
+    "brief": "I am an experienced full stack software engineer with a demonstrated history of implementing engineering best practices across several industries. I'm most highly skilled in C#/.Net and Javascript/Node.js. I like to work on high performing teams, and I sincerely believe that continuous testing and delivery with a culture of quality and ownership are what enable that kind of performance.",
     "image": ""
   },
   "contact": {
@@ -38,7 +38,7 @@
         "employer": "Charles Schwab",
         "url": "http://schwab.com",
         "position": "Staff Software Engineer",
-        "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app. On that project, in addition to leading the development effort, I worked closely with designers and product owners, and also with other development teams doing parallel work on the mobile app and supporting infrastructure and backend services.",
+        "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app.",
         "start": "2019-08-26",
         "keywords": [
           "C#",
@@ -55,8 +55,7 @@
           "Maintained high standards of quality and code coverage.",
           "Developed customer facing single page apps in Angular 7 and 9.",
           "Developed middle-tier APIs in C#/.Net Core using Web API.",
-          "Worked with other development teams to define dependencies and communicate application interfaces.",
-          "Worked with multiple stakeholders in an agile process to scope and estimate new features, improve production operations, and maintain a predictable velocity."
+          "Worked with other development teams to define dependencies and communicate application interfaces."
         ]
       },
       {
@@ -157,8 +156,7 @@
           "REST"
         ],
         "highlights": [
-          "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development and support after release.",
-          "Worked with C#, Angular, Angular Reactive Extensions, Node.js, and Express.",
+          "Designed and implemented multiple projects including customer facing apps and middleware services with millions of users.",
           "Maintained greater than 90% test coverage for these projects.",
           "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
           "Estimated scope of stories and collaborated with the team to share work and meet sprint goals.",
@@ -220,7 +218,7 @@
         "url": "http://uta.edu",
         "start": "2006-09",
         "end": "2010-06",
-        "summary": "Majored in Software Engineering, no degree"
+        "summary": "Majored in Software Engineering, did not graduate"
       }
     ]
   },
@@ -280,15 +278,28 @@
         "organization": "Women Who Code DFW",
         "url": "https://www.womenwhocode.com/dfw",
         "start": "2020-05",
-        "summary": "As a director, I am a member of the official leadership team for the DFW network of Women Who Code. I plan and organize monthly events; I coordinate with the hosts, sponsors, and presenters during the event; I recruit new hosts and speakers; and I help to grow and mentor future members of the WWC DFW leadership team.",
+        "end": "2020-10",
+        "summary": "As a director, I was a member of the official leadership team for the DFW network of Women Who Code. I planned and organized monthly events; I coordinated with the hosts, sponsors, and presenters during the event; I recruited new hosts and speakers; and I helped to grow and mentor future members of the WWC DFW leadership team.",
         "highlights": [
           "Joined as a member in October 2018 and volunteered frequently.",
-          "Planned and hosted a virtual discussion panel.",
-          "Planned, organized, and facilitated virtual video chats to continue to allow members to meet and socialize during the COVID-19 quarantine.",
+          "Planned and hosted a virtual discussion panel and multiple tech talks.",
           "Wrote articles for the DFW network's blog.",
-          "Co-hosted numerous events organized by other directors.",
-          "Given multiple talks.",
+          "Gave multiple tech talks.",
           "Mentored other members in professional and technical areas."
+        ]
+      },
+      {
+        "flavor": "volunteer",
+        "position": "Player",
+        "organization": "Dungeons & Dragons",
+        "url": "https://dnd.wizards.com/",
+        "start": "2000-10",
+        "summary": "I've been playing and running D&D and other tabletop role playing games regularly for over 20 years. Through that hobby, I've gained a great deal of experience in working with small groups toward a common goal. Among the many skills I've learned, I feel these are particularly valuable.",
+        "highlights": [
+          "Quickly learning and teaching complex systems",
+          "Sharing focus and responsibility with group members",
+          "Finding balance between keeping focus on a goal with allowing exploration and discovery",
+          "Maintaining group interest and engagement"
         ]
       }
     ],
