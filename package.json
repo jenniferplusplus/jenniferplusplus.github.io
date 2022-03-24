@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "fresh-theme-positive-plusplus": "git+https://github.com/jenniferplusplus/fresh-theme-positive-plusplus.git",
-    "fresh-theme-positive-plusplus-functional": "file:../fresh-theme-positive-plusplus",
+    "fresh-theme-positive-plusplus-functional": "git+https://github.com/jenniferplusplus/fresh-theme-positive-plusplus-functional.git",
     "hackmyresume": "^1.9.0-beta"
   }
 }
