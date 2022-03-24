@@ -5,15 +5,16 @@
   "main": "",
   "scripts": {
     "test": "echo \"no tests\" && exit 1",
-    "build": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.all -t ./node_modules/fresh-theme-positive-plusplus",
+    "build": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.all -t ./node_modules/fresh-theme-positive-plusplus-functional",
     "start": "npm run build",
-    "html": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.html -t ./node_modules/fresh-theme-positive-plusplus",
+    "html": "./node_modules/.bin/hackmyresume build jennifer.resume.json TO build/jennifer.html -t ./node_modules/fresh-theme-positive-plusplus-functional",
     "clean": "rm -rf build/"
   },
   "author": "Jennifer Moore <jenniferplusplus@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "fresh-theme-positive-plusplus": "git+https://github.com/jenniferplusplus/fresh-theme-positive-plusplus.git",
+    "fresh-theme-positive-plusplus-functional": "file:../fresh-theme-positive-plusplus",
     "hackmyresume": "^1.9.0-beta"
   }
 }

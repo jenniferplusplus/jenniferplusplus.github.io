@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Software Engineer",
-    "brief": "I am an experienced software engineer with a demonstrated history of implementing engineering best practices across several industries. I'm most highly skilled in C#/.Net and Javascript/Node.js and enjoy working across the full stack of software ecosystems. I like to work on high performing teams, and I sincerely believe that continuous testing and delivery with a culture of quality and ownership are what enable that kind of performance.",
+    "brief": "I am a highly experienced software engineer with a focus on engineering best practices and psychological safety to support effective and high performing teams. I prefer to work across the full stack of a given project because I feel this enables teams to take ownership of their process and to continuously improve it by making it faster, safer, and more reliable.",
     "image": ""
   },
   "contact": {
@@ -35,15 +35,37 @@
   "employment": {
     "history": [
       {
+        "employer": "Instil",
+        "url": "https://instil.io",
+        "position": "Staff Software Engineer",
+        "summary": "Instil is an early stage startup that I joined with the goal of building an effective team and sustainable development practices. Unfortunately, the company did not have the product-market fit they thought they did, and this resulted in frequently shifting priorities, which was not a good fit for me.",
+        "start": "2021-09-01",
+        "end": "2022-03-23",
+        "keywords": [
+          "Python",
+          "AWS",
+          "Lambda",
+          "DynamoDB",
+          "Github",
+          "Github Actions"
+        ],
+        "highlights": [
+          "Developed major features for the Instil CRM app, notably an audit log, data export, and 3rd party integration framework",
+          "Enhanced unit tests and decoupled a majority of tests from dependency on DynamoDB",
+          "Drove a reliability initiative, including early efforts at defining Service Level Objectives",
+          "Worked to define and codify architectural practices already in use, and provide guidance on future development"
+        ]
+      },
+      {
         "employer": "Charles Schwab",
         "url": "http://schwab.com",
-        "position": "Principal Software Engineer",
-        "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. During that time I worked on development tasks and provided technical guidance and leadership to the rest of the team. I subsequently moved onto another team as the lead developer for a greenfield customer facing person-to-person money transfer web app. On that project, in addition to leading the development effort, I worked closely with designers and product owners, and also with other development teams doing parallel work on the mobile app and supporting infrastructure and backend services.",
+        "position": "Staff Software Engineer",
+        "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. I worked on multiple projects, including a greenfield customer-facing cash transfer app. On that and other projects, I worked closely with designers and product owners and other development teams working in parallel to build backend services and mobile features.",
         "start": "2019-08-26",
+        "end": "2021-08-15",
         "keywords": [
           "C#",
-          "Angular",
-          "IIS",
+          "Angular 7/9",
           "Web API",
           "REST",
           "Jira",
@@ -51,7 +73,6 @@
           "TypeScript"
         ],
         "highlights": [
-          "Developed internal tooling to simplify the developer workflow and speed up onboarding new developers and new applications.",
           "Maintained high standards of quality and code coverage.",
           "Developed customer facing single page apps in Angular 7 and 9.",
           "Developed middle-tier APIs in C#/.Net Core using Web API.",
@@ -60,23 +81,21 @@
         ]
       },
       {
-        "employer": "Solera",
+        "employer": "Solera/Title Tech",
         "url": "http://solera.com",
         "position": "Senior Software Engineer",
-        "summary": "At Solera, I worked on customer facing products dealing with state and local laws, taxes, and fees related to vehicle sales, registration, and titling. During my time here, I have continually advocated for greater adoption of engineering best practices. I have also coordinated with other teams in designing new service oriented architectures.",
+        "summary": "At Solera, I worked on customer facing products dealing with state and local laws, taxes, and fees related to vehicle sales, registration, and titling. I advocated for greater adoption of engineering best practices, especially surrounding continuous testing and deployment. I also coordinated with other teams in designing new service oriented architectures.",
         "start": "2018-10-01",
         "end": "2019-08-16",
         "keywords": [
           "C#",
           "Azure DevOps",
           "SQL",
-          "IIS",
           "WCF",
           "Web API",
           "REST",
           "Jira",
-          "ASP.NET",
-          "UWP"
+          "ASP.NET"
         ],
         "highlights": [
           "Drove improvements in the development process and adoption of best practices, especially code review and unit testing.",
@@ -88,7 +107,7 @@
       {
         "employer": "Allegro Development",
         "url": "https://www.allegrodev.com/",
-        "position": "Principal Software Engineer",
+        "position": "Staff Software Engineer",
         "summary": "At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and DevOps.",
         "start": "2017-11-01",
         "end": "2018-09-01",
@@ -97,7 +116,6 @@
           "WPF",
           "WCF",
           "SQL",
-          "Visual Studio",
           "TFS"
         ],
         "highlights": [
@@ -110,7 +128,7 @@
         "employer": "ParkHub",
         "url": "http://parkhub.com/",
         "position": "Senior Software Engineer",
-        "summary": "At Parkhub, I built a new generation of services and infrastructure to allow the company to grow to provide a Global Distribution System for parking inventory and data driven insights for parking operators. I utilized IoT sensors, microservices, and mobile-first offline-first applications. We used a lightweight scrum-like methodology.",
+        "summary": "At Parkhub, I built a new generation of services and infrastructure for a sensor-based parking lot monitoring service. I utilized IoT sensors, containerized microservices, and Kubernetes.",
         "start": "2017-03-01",
         "end": "2017-09-01",
         "keywords": [
@@ -122,10 +140,7 @@
           "Event Sourcing",
           "Postgres SQL",
           "Mongodb",
-          "Docker",
-          "Kubernetes",
-          "DevOps",
-          "Agile"
+          "Kubernetes"
         ],
         "highlights": [
           "Designed and built a charting API to transform sensor based parking event data into a format that's easily visualized in graphs or charts.",
@@ -142,19 +157,14 @@
         "start": "2014-06-01",
         "end": "2017-03-01",
         "keywords": [
-          "Angular 1.x",
+          "AngularJS 1.x",
           "RxJS",
-          "Protractor",
-          "Selenium",
           "Node.js",
-          "Express",
           "C#",
           "CI/CD",
           "Jenkins",
           "Jira",
-          "DevOps",
-          "Scrum",
-          "REST"
+          "DevOps"
         ],
         "highlights": [
           "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development and support after release.",
@@ -165,7 +175,9 @@
           "Promoted best practices using functional techniques and MVVM design patterns.",
           "Implemented and maintained the CI/CD pipeline."
         ]
-      },
+      }
+    ],
+    "ancient history": [
       {
         "employer": "Ambit Energy",
         "url": "https://www.ambitenergy.com/",
@@ -188,9 +200,7 @@
           "Integrated with TFS for defect tracking and test case management.",
           "Created several utilities to automate common tasks for internal business users."
         ]
-      }
-    ],
-    "ancient history": [
+      },
       {
         "employer": "Think Finance",
         "url": "https://www.thinkfinance.com/",
@@ -211,6 +221,105 @@
       }
     ]
   },
+  "projects": [
+    {
+      "title": "Instil CRM",
+      "category": "Professional",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "Developer",
+      "summary": "I built multiple major features of the application, and made substantial improvements in documenting and educating the rest of the development team on the application's architectural features.",
+      "description": "The Instil CRM is a non-profit oriented constituent relationship management tool. The aim is to be \"Salesforce for Non-profits.\" It's a serverless app, built on AWS.",
+      "highlights": [
+        "Serverless architecture deployed in AWS, using mainly Lambdas and DynamoDB",
+        "Largely event-driven, with events distributed by AWS EventBridge",
+        "Distributed monolith",
+        "RESTful API powered by AWS API Gateway",
+        "React front-end"
+      ],
+      "keywords": [
+        "AWS",
+        "Serverless",
+        "Event-driven",
+        "Python",
+        "Lambda",
+        "DynamoDB"
+      ]
+    },
+    {
+      "title": "Smalltalk",
+      "category": "Personal",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "Creator",
+      "summary": "Smalltalk is an ongoing personal project that I'm building out of a desire to have an app like this. It also serves as a space to experiment and refine my understanding of various cloud architecture patterns. It's built and deployed in Azure, primarily because of the superior cost controls and serverless developer experience.",
+      "description": "Smalltalk is an unreleased (for now) app that aims to help distributed teams maintain a sense of personal contact with each other by collecting current local news for the home base of each of the team members.",
+      "highlights": [
+        "Serverless architecture deployed in Azure",
+        "Azure functions app",
+        "Hexagonal architecture",
+        "Entity framework",
+        "Frontend TBD, likely Blazor"
+      ],
+      "keywords": [
+        "Azure",
+        "Serverless",
+        "C#",
+        "SQL",
+        "Azure Functions"
+      ]
+    },
+    {
+      "title": "Parkhub IoT",
+      "category": "Professional",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "Developer",
+      "summary": "In 2017, I helped design and build the initial implementation of an IoT sensor product for Parkhub. The system was designed as an event-driven, microservices architecture, using Apache Kafka as the primary message queue and deployed in self-managed Kubernetes.",
+      "description": "Parkhub's IoT product is a low(er) cost sensor-based system for monitoring occupancy and traffic flow within a parking facility.",
+      "highlights": [
+        "Microservice architecture",
+        "Kubernetes on AWS",
+        "Event-driven and event-sourced",
+        "Apache Kafka",
+        "Node.js",
+        "Multiple service-owned databases, including MongoDB, Cassandra, and PostgreSQL"
+      ],
+      "keywords": [
+        "Kubernetes",
+        "Kafka",
+        "Microservices",
+        "Node.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Fidelity Watchlist",
+      "category": "Professional",
+      "url": "https://digital.fidelity.com/ftgw/digital/watchlist/#/watchlist",
+      "repo": "",
+      "media": [],
+      "role": "Developer",
+      "summary": "The watchlist application was a greenfield replacement of the front-end web app that I was able to make major contributions to for the first year of the project, up to and beyond the general release to all customers. The existing backend infrastructure was re-used for the rebuild.",
+      "description": "Fidelity's Watchlist is an equities trading research tool, available to all Fidelity customers (approximately 40 million).",
+      "highlights": [
+        "AngularJS 1.x and RxJS",
+        "Responsive design",
+        "Fully automated, continuous integration, test, and deploy",
+        "Highly performant data-driven UI"
+      ],
+      "keywords": [
+        "AngularJS",
+        "RxJS",
+        "Microservices",
+        "Node.js",
+        "CI/CD"
+      ]
+    }
+  ],
   "education": {
     "degree": "no degree",
     "history": [
@@ -234,12 +343,10 @@
           ".Net Framework",
           "Javascript",
           "Node.js",
+          "Python",
           "SQL",
-          "Docker",
           "Kubernetes",
           "Apache Kafka",
-          "React",
-          "ReactiveX",
           "TDD/BDD"
         ]
       },
@@ -261,11 +368,11 @@
         "skills": [
           "TFS",
           "Jira",
-          "Test Case Management",
           "Agile",
           "Scrum",
           "Kanban",
-          "Pivotal Tracker"
+          "Github",
+          "Github Actions"
         ]
       }
     ],
@@ -279,8 +386,9 @@
         "position": "Director",
         "organization": "Women Who Code DFW",
         "url": "https://www.womenwhocode.com/dfw",
-        "start": "2020-05",
-        "summary": "As a director, I am a member of the official leadership team for the DFW network of Women Who Code. I plan and organize monthly events; I coordinate with the hosts, sponsors, and presenters during the event; I recruit new hosts and speakers; and I help to grow and mentor future members of the WWC DFW leadership team.",
+        "start": "2019-06",
+        "end": "2020-09",
+        "summary": "As a director, I was a member of the official leadership team for the DFW network of Women Who Code. I planned and organized monthly events; I coordinated with the hosts, sponsors, and presenters during the event; I recruited new hosts and speakers; and I helped to grow and mentor future members of the WWC DFW leadership team.",
         "highlights": [
           "Joined as a member in October 2018 and volunteered frequently.",
           "Planned and hosted a virtual discussion panel.",
