@@ -168,7 +168,6 @@
         ],
         "highlights": [
           "Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development and support after release.",
-          "Worked with C#, Angular, Angular Reactive Extensions, Node.js, and Express.",
           "Maintained greater than 90% test coverage for these projects.",
           "Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.",
           "Estimated scope of stories and collaborated with the team to share work and meet sprint goals.",
@@ -386,17 +385,29 @@
         "position": "Director",
         "organization": "Women Who Code DFW",
         "url": "https://www.womenwhocode.com/dfw",
-        "start": "2019-06",
-        "end": "2020-09",
+        "start": "2020-05",
+        "end": "2020-10",
         "summary": "As a director, I was a member of the official leadership team for the DFW network of Women Who Code. I planned and organized monthly events; I coordinated with the hosts, sponsors, and presenters during the event; I recruited new hosts and speakers; and I helped to grow and mentor future members of the WWC DFW leadership team.",
         "highlights": [
           "Joined as a member in October 2018 and volunteered frequently.",
-          "Planned and hosted a virtual discussion panel.",
-          "Planned, organized, and facilitated virtual video chats to continue to allow members to meet and socialize during the COVID-19 quarantine.",
+          "Planned and hosted a virtual discussion panel and multiple tech talks.",
           "Wrote articles for the DFW network's blog.",
-          "Co-hosted numerous events organized by other directors.",
-          "Given multiple talks.",
+          "Gave multiple tech talks.",
           "Mentored other members in professional and technical areas."
+        ]
+      },
+      {
+        "flavor": "volunteer",
+        "position": "Player",
+        "organization": "Dungeons & Dragons",
+        "url": "https://dnd.wizards.com/",
+        "start": "2000-10",
+        "summary": "I've been playing and running D&D and other tabletop role playing games regularly for over 20 years. Through that hobby, I've gained a great deal of experience in working with small groups toward a common goal. Among the many skills I've learned, I feel these are particularly valuable.",
+        "highlights": [
+          "Quickly learning and teaching complex systems",
+          "Sharing focus and responsibility with group members",
+          "Finding balance between keeping focus on a goal with allowing exploration and discovery",
+          "Maintaining group interest and engagement"
         ]
       }
     ],
