@@ -258,7 +258,8 @@
         "Emphasis on observability; logs, metrics, traces, with the goal of making system behavior understandable and discoverable",
         "Docker compose based local development workflow, including traces and log collection",
         "CICD based on Github Actions; beginning to explore other options",
-        "Feature flags; enabling more rapid and controlled deployments, and as a tool to support operations, customer success, and product decision"
+        "Feature flags; enabling more rapid and controlled deployments, and as a tool to support operations, customer success, and product decision",
+        "Blame-aware incident response and retrospectives focussed on building team confidence to participate in future incident response"
       ],
       "keywords": [
         "Node.js",
