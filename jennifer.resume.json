@@ -35,6 +35,28 @@
   "employment": {
     "history": [
       {
+        "employer": "Screencastify",
+        "url": "https://screencastify.com",
+        "position": "Staff Software Engineer, DevOps",
+        "summary": "Screencastify makes a screen recording application that's popular in k12 education. I joined to grow DevOps practices and culture within the engineering organization, and I think I've been very successful in doing so. This has been a great team and a great experience, where I've been able to put into practice many aspects of a DevOps working model that have been mostly theoretical for me in the past. Unfortunately changes in executive priorities have undermined the trust and safety I need as a person and an engineer.",
+        "start": "2022-05-01",
+        "keywords": [
+          "Node.js",
+          "GCP",
+          "Postgres",
+          "Docker",
+          "Kubernetes",
+          "Github",
+          "Github Actions"
+        ],
+        "highlights": [
+          "Improved speed and reliability of the CICD pipeline by about 30% and 60% respectively",
+          "Drove observability efforts, including distributed tracing with OpenTelemetry",
+          "Led incident response and retrospectives, with a blame-aware process focussed on building team confidence to participate in future incident response",
+          "Served as technical lead for the DevOps team, coordinating projects with interrupt-driven work, and building cross functional expertise within the team and department"
+        ]
+      },
+      {
         "employer": "Instil",
         "url": "https://instil.io",
         "position": "Staff Software Engineer",
@@ -222,28 +244,31 @@
   },
   "projects": [
     {
-      "title": "Instil CRM",
+      "title": "Castify",
       "category": "Professional",
-      "url": "",
+      "url": "https://app.castify.com",
       "repo": "",
       "media": [],
-      "role": "Developer",
-      "summary": "I built multiple major features of the application, and made substantial improvements in documenting and educating the rest of the development team on the application's architectural features.",
-      "description": "The Instil CRM is a non-profit oriented constituent relationship management tool. The aim is to be \"Salesforce for Non-profits.\" It's a serverless app, built on AWS.",
+      "role": "DevOps",
+      "summary": "I led the DevOps effort during the latter half of the pre-release development and beyond. In my time here, I've shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I've put heavy emphasis on the local development experience, the speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
+      "description": "The new Castify product is a 2nd generation of Screencastify's core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.",
       "highlights": [
-        "Serverless architecture deployed in AWS, using mainly Lambdas and DynamoDB",
-        "Largely event-driven, with events distributed by AWS EventBridge",
-        "Distributed monolith",
-        "RESTful API powered by AWS API Gateway",
-        "React front-end"
+        "Containerized architecture in GCP",
+        "Mix of client-server request-response work, and asynchronous processing mediated through a task queue",
+        "Emphasis on observability; logs, metrics, traces, with the goal of making system behavior understandable and discoverable",
+        "Docker compose based local development workflow, including traces and log collection",
+        "CICD based on Github Actions; beginning to explore other options",
+        "Feature flags; enabling more rapid and controlled deployments, and as a tool to support operations, customer success, and product decision"
       ],
       "keywords": [
-        "AWS",
-        "Serverless",
-        "Event-driven",
-        "Python",
-        "Lambda",
-        "DynamoDB"
+        "Node.js",
+        "OpenTelemetry",
+        "GCP",
+        "Postgres",
+        "Docker",
+        "Kubernetes",
+        "Feature flags",
+        "Github Actions"
       ]
     },
     {
@@ -258,7 +283,7 @@
       "highlights": [
         "Serverless architecture deployed in Azure",
         "Azure functions app",
-        "Hexagonal architecture",
+        "Cloud Components architecture",
         "Entity framework",
         "Frontend TBD, likely Blazor"
       ],
@@ -339,13 +364,13 @@
         "level": "Expert",
         "skills": [
           "C#",
-          ".Net Framework",
-          "Javascript",
+          ".Net",
+          "Javascript/Typescript",
           "Node.js",
           "Python",
           "SQL",
           "Kubernetes",
-          "Apache Kafka",
+          "Docker",
           "TDD/BDD"
         ]
       },
@@ -354,7 +379,7 @@
         "level": "Expert",
         "skills": [
           "Continuous Integration",
-          "Jenkins",
+          "OpenTelemetry",
           "Git",
           "TFS",
           "Amazon Web Services",
