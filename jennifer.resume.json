@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Software Engineer",
-    "brief": "I support engineering teams to grow and become very high performing and effective by fostering psychological safety and engineering best practices. I prefer to work in an environment with a high degree of autonomy and ownership of the development process, so that I can lead my team in iteratively improving that process to make it faster, safer, and more sustainable. I consider myself to be a full stack software engineer.",
+    "brief": "I support engineering teams to grow and become very high performing and effective by fostering psychological safety and engineering best practices. I prefer to work in an environment with a high degree of autonomy and ownership of the development process, so that I can lead my team in iteratively improving that process to make it faster, safer, and more sustainable. I'm seeking to grow or support DevOps cultures and working models, whether or not that comes with a DevOps team.",
     "image": ""
   },
   "contact": {
@@ -40,6 +40,7 @@
         "position": "Staff Software Engineer, DevOps",
         "summary": "Screencastify makes a screen recording application that's popular in k12 education. I joined to grow DevOps practices and culture within the engineering organization, and I think I've been very successful in doing so. This has been a great team and a great experience, where I've been able to put into practice many aspects of a DevOps working model that have been mostly theoretical for me in the past.",
         "start": "2022-05-01",
+        "end": "2023-01-13",
         "keywords": [
           "Node.js",
           "GCP",
@@ -50,10 +51,10 @@
           "Github Actions"
         ],
         "highlights": [
-          "Improved speed and reliability of the CICD pipeline by about 30% and 60% respectively",
+          "Improved speed and reliability of the CICD pipeline by about 30% and 60% respectively, to a median run time less than 15 minutes",
           "Drove observability efforts, including distributed tracing with OpenTelemetry",
           "Led incident response and retrospectives, with a blame-aware process focussed on building team confidence to participate in future incident response",
-          "Served as technical lead for the DevOps team, coordinating projects with interrupt-driven work, and building cross functional expertise within the team and department"
+          "Technical lead for the DevOps team, coordinating both planned projects and interrupt-driven work, and building cross functional expertise within the team and department"
         ]
       },
       {
@@ -175,7 +176,7 @@
         "employer": "Fidelity Investments",
         "url": "http://fidelity.com/",
         "position": "Senior Software Engineer",
-        "summary": "As a software engineer, I contributed to the design and implementation of several customer facing and middle tier applications. I also worked to promote best practices and mentored junior team members. In this position I continued to participate in an Agile/Scrum methodology, and I worked mostly with AngularJS and NodeJS.",
+        "summary": "As a software engineer, led multiple very successful automated testing efforts. I also played a central role in the design and implementation of customer facing and middle tier applications. I promoted best practices and mentored junior team members throughout these projects.",
         "start": "2014-06-01",
         "end": "2017-03-01",
         "keywords": [
@@ -244,14 +245,14 @@
   },
   "projects": [
     {
-      "title": "Castify",
+      "title": "Castify Studio",
       "category": "Professional",
       "url": "https://app.castify.com",
       "repo": "",
       "media": [],
       "role": "DevOps",
-      "summary": "I led the DevOps effort during the latter half of the pre-release development and beyond. In my time here, I've shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I've put heavy emphasis on the local development experience, the speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
-      "description": "The new Castify product is a 2nd generation of Screencastify's core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.",
+      "summary": "I led the DevOps and SRE effort during the latter half of the pre-release development and beyond. In my time here, I've shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I've put heavy emphasis on the local development experience, the speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
+      "description": "The new Castify Studio product is a 2nd generation of Screencastify's core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.",
       "highlights": [
         "Containerized architecture in GCP",
         "Mix of client-server request-response work, and asynchronous processing mediated through a task queue",
@@ -379,11 +380,12 @@
         "name": "DevOps",
         "level": "Expert",
         "skills": [
-          "Continuous Integration",
+          "CI/CD",
           "OpenTelemetry",
           "Git",
-          "TFS",
-          "Amazon Web Services",
+          "Github Actions",
+          "AWS",
+          "GCP",
           "Azure DevOps"
         ]
       },
@@ -396,8 +398,7 @@
           "Agile",
           "Scrum",
           "Kanban",
-          "Github",
-          "Github Actions"
+          "Github"
         ]
       }
     ],
