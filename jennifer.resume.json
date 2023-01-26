@@ -251,7 +251,7 @@
       "repo": "",
       "media": [],
       "role": "DevOps",
-      "summary": "I led the DevOps and SRE effort during the latter half of the pre-release development and beyond. In my time here, I've shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I've put heavy emphasis on the local development experience, the speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
+      "summary": "I led the DevOps and SRE effort during the latter half of the pre-release development and beyond. In my time here, I've shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I've put heavy emphasis on reliability, the developer experience including speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
       "description": "The new Castify Studio product is a 2nd generation of Screencastify's core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.",
       "highlights": [
         "Containerized architecture in GCP",
