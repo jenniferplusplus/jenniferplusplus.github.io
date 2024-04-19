@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Software Engineer",
-    "brief": "I support engineering teams to grow and become very high performing and effective by fostering psychological safety and engineering best practices. I prefer to work in an environment with a high degree of autonomy and ownership of the development process, so that I can lead my team in iteratively improving that process to make it faster, safer, and more sustainable. I'm seeking to grow or support DevOps cultures and working models, whether or not that comes with a DevOps team.",
+    "brief": "I support engineering teams to grow and become very high performing and effective by fostering psychological safety and engineering best practices. I prefer to work in a high trust, highly autonomous environment so that I can lead my team in iteratively improving that process to make it faster, safer, and more sustainable. I'm seeking to grow or support DevOps cultures and working models, whether or not that comes with a DevOps team.",
     "image": ""
   },
   "contact": {
@@ -34,6 +34,27 @@
   ],
   "employment": {
     "history": [
+      {
+        "employer": "Influxdata",
+        "url": "https://www.influxdata.com/",
+        "position": "Staff Software Engineer",
+        "summary": "Influxdata is the company behind InfluxDB, a leading time series database for telemetry and other workloads. I initially joined Influx to support their internal platform team, to spearhead updates to a variety of in-house build and deployment tooling that was struggling to keep up with the changes introduced by the upcoming release of InfluxDB 3.0. I later joined the development team responsible for InfluxDB Clustered, our on-prem enterprise product.",
+        "start": "2023-03-01",
+        "keywords": [
+          "Kubernetes",
+          "Jsonnet",
+          "Golang",
+          "ArgoCD",
+          "Rust"
+        ],
+        "highlights": [
+
+          "Improved speed and reliability of the CICD pipeline by about 30% and 60% respectively, to a median run time less than 15 minutes",
+          "Drove observability efforts, including distributed tracing with OpenTelemetry",
+          "Led incident response and retrospectives, with a blame-aware process focussed on building team confidence to participate in future incident response",
+          "Technical lead for the DevOps team, coordinating both planned projects and interrupt-driven work, and building cross functional expertise within the team and department"
+        ]
+      },
       {
         "employer": "Screencastify",
         "url": "https://screencastify.com",
@@ -245,6 +266,31 @@
   },
   "projects": [
     {
+      "title": "Letterbook",
+      "category": "Personal, open source",
+      "url": "http://letterbookhq.com",
+      "repo": "https://github.com/Letterbook/Letterbook",
+      "media": [],
+      "role": "Creator",
+      "summary": "I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and other federated social media apps, with a focus on low cost, easy operations, and an inviting stance for other contributors. It's grown to have 5 or 6 semi-regular contributors and is nearing a sort of alpha release. As the project creator and core maintainer, I've done the large majority of the technical work, of course. Beyond that, I've focussed on recruiting, on-boarding, and coordinating other contributors to create a long-term collaborative project.",
+      "description": "Letterbook is a federated microblogging service, implementing ActivityPub. The goal for the project is to make hosting a fediverse server a better and more sustainable experience. We also want to make it a safer and more inclusive space for the people who make the fediverse their social media home.",
+      "highlights": [
+        "Federated microblogging platform, similar to Mastodon or Bluesky",
+        "Flexible architecture to support, small single server deployments that can grow as-needed to high-capacity, high-availability, distributed systems",
+        "Emphasis on observability, to enable independent admins to understand and manage their own software, and to better investigate problems when they arise",
+        "Small but growing community of contributors",
+        "Admins and moderators are a first-class priority",
+        "Optimizing for performance on low cost, low powered hardware and global mobile networks and devices; targeting world-wide accessibility"
+      ],
+      "keywords": [
+        "ActivityPub",
+        "C#",
+        "Asp.net core",
+        "Postgres",
+        "Self-hosted"
+      ]
+    },
+    {
       "title": "Castify Studio",
       "category": "Professional",
       "url": "https://app.castify.com",
@@ -274,30 +320,6 @@
       ]
     },
     {
-      "title": "Smalltalk",
-      "category": "Personal",
-      "url": "",
-      "repo": "",
-      "media": [],
-      "role": "Creator",
-      "summary": "Smalltalk is an ongoing personal project that I'm building out of a desire to have an app like this. It also serves as a space to experiment and refine my understanding of various cloud architecture patterns. It's built and deployed in Azure, primarily because of the superior cost controls and serverless developer experience.",
-      "description": "Smalltalk is an unreleased (for now) app that aims to help distributed teams maintain a sense of personal contact with each other by collecting current local news for the home base of each of the team members.",
-      "highlights": [
-        "Serverless architecture deployed in Azure",
-        "Azure functions app",
-        "Cloud Components architecture",
-        "Entity framework",
-        "Frontend TBD, likely Blazor"
-      ],
-      "keywords": [
-        "Azure",
-        "Serverless",
-        "C#",
-        "SQL",
-        "Azure Functions"
-      ]
-    },
-    {
       "title": "Parkhub IoT",
       "category": "Professional",
       "url": "",
@@ -320,6 +342,32 @@
         "Microservices",
         "Node.js",
         "MongoDB"
+      ]
+    }
+  ],
+  "historical projects": [
+    {
+      "title": "Smalltalk",
+      "category": "Personal",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "Creator",
+      "summary": "Smalltalk is an ongoing personal project that I'm building out of a desire to have an app like this. It also serves as a space to experiment and refine my understanding of various cloud architecture patterns. It's built and deployed in Azure, primarily because of the superior cost controls and serverless developer experience.",
+      "description": "Smalltalk is an unreleased (for now) app that aims to help distributed teams maintain a sense of personal contact with each other by collecting current local news for the home base of each of the team members.",
+      "highlights": [
+        "Serverless architecture deployed in Azure",
+        "Azure functions app",
+        "Cloud Components architecture",
+        "Entity framework",
+        "Frontend TBD, likely Blazor"
+      ],
+      "keywords": [
+        "Azure",
+        "Serverless",
+        "C#",
+        "SQL",
+        "Azure Functions"
       ]
     },
     {
@@ -369,10 +417,10 @@
           ".Net",
           "Javascript/Typescript",
           "Node.js",
-          "Python",
           "SQL",
-          "Kubernetes",
           "Docker",
+          "Kubernetes",
+          "Golang",
           "TDD/BDD"
         ]
       },
@@ -385,8 +433,7 @@
           "Git",
           "Github Actions",
           "AWS",
-          "GCP",
-          "Azure DevOps"
+          "GCP"
         ]
       },
       {
