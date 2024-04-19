@@ -272,7 +272,7 @@
       "repo": "https://github.com/Letterbook/Letterbook",
       "media": [],
       "role": "Creator",
-      "summary": "I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and other federated social media apps, with a focus on low cost, easy operations, and an inviting stance for other contributors. It's grown to have 5 or 6 semi-regular contributors and is nearing a sort of alpha release. As the project creator and core maintainer, I've done the large majority of the technical work, of course. Beyond that, I've focussed on recruiting, on-boarding, and coordinating other contributors to create a long-term collaborative project.",
+      "summary": "I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and other federated social media apps, with a focus on low cost, easy operations, and an inviting stance for other contributors. It's grown to have 5 or 6 semi-regular contributors and is nearing an alpha release. As the project creator and core maintainer, I've done the large majority of the technical work, of course. Beyond that, I've focussed on recruiting, on-boarding, and coordinating other contributors to create a long-term collaborative project.",
       "description": "Letterbook is a federated microblogging service, implementing ActivityPub. The goal for the project is to make hosting a fediverse server a better and more sustainable experience. We also want to make it a safer and more inclusive space for the people who make the fediverse their social media home.",
       "highlights": [
         "Federated microblogging platform, similar to Mastodon or Bluesky",
