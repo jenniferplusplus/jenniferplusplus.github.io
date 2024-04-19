@@ -287,7 +287,8 @@
         "C#",
         "Asp.net core",
         "Postgres",
-        "Self-hosted"
+        "Self-hosted",
+        "OpenTelemetry"
       ]
     },
     {
