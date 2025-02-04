@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jennifer Moore</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>html, body, main, section, header, ul, p, h1, h2, h3 {
+  font-family: Calibri, 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0; padding: 0;
+  display: block;
+}
+
+a {
+  color: #40E0D0;
+  text-decoration: none;
+}
+
+a:visited {
+  /*color: paleturquoise;*/
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size:
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #898989;
+  font-size: 2em;
+  position: relative;
+  font-weight: 400;
+}
+
+h3, .tenure {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  width: 85%;
+  float: left;
+}
+
+table {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+td:first-child {
+  text-align: right;
+  color: #00ced1;
+  /* letter-spacing: 2px; PDF hates letter spacing */
+  font-weight: bold;
+}
+
+td:last-child {
+  text-align: justify; /* HTML justification sucks, but in this case... */
+}
+
+hr {
+  display: none;
+}
+
+main {
+  padding: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 2em;
+}
+
+section > div {
+  margin-top: 1em;
+  overflow: hidden; /* Clear floated children */
+}
+
+section > div p {
+  clear: both;
+}
+
+section > header {
+  position: relative;
+}
+
+p + ul {
+  margin: 1em;
+}
+
+ul {
+  clear: both;
+}
+
+li {
+  margin-left: 2em;
+}
+
+p, li {
+  text-align: justify;
+}
+
+.tenure {
+  float: right;
+  color: #6F6F6F;
+  background-color: #F5F5F5;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: 85%;
+}
+
+span.keywords {
+  font-size: 12px;
+  color: #00ced1;
+  padding: 4px 6px;
+}
+
+span.keyword-bubble {
+  background-color: #F5F5F5;
+  border-radius: 6px;
+  padding: 4px 6px;
+  margin-right: 3px;
+}
+
+thead {
+  display: none;
+}
+
+main > header {
+  width: 100%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+h1 {
+  float: left;
+}
+
+h1, h2, .label {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
+}
+
+#contact {
+ clear: both;
+ float: right;
+ margin-top: 2px;
+}
+
+#contact span + span {
+  margin-left: 10px;
+}
+
+header > span.fa {
+  text-align: center;
+  margin-right: 3px;
+  position: absolute;
+  width: 40px;
+  top: 10px;
+  font-size: 30px;
+  /*transform: translateX(-110%); PDF no likey */
+  margin-left: -50px;
+  color: #DADADA;
+}
+
+.label {
+  float: right;
+  color: #DADADA;
+}
+
+#summary {
+  color: #717171;
+  font-size: 1.25em;
+  margin-top: 6em;
+}
+
+#skills td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: left;
+}
+</style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Jennifer <span style="color: #00ced1;">Moore</span></h1>
+        <span class="label">Software Engineer</span>
+        <p id="contact">
+          <span class="email"><a href="mailto:contact@jenniferplusplus.com">contact@jenniferplusplus.com</a></span>
+          <span class="phone">1-817-264-7347</span>
+          <span class="website"><a href="https://jenniferplusplus.com"><a href="https://jenniferplusplus.com">https://jenniferplusplus.com</a></a></span>
+        </p>
+      </header>
+
+
+      <section id="summary">
+        I support engineering teams to grow and become very high performing and effective by fostering psychological safety and engineering best practices. I prefer to work in a high trust, highly autonomous environment so that I can lead my team in iteratively improving that process to make it faster, safer, and more sustainable. I&#39;m seeking to grow or support a trusting and collaborative culture where we can all do our best engineering work.
+      </section>
+
+
+
+      
+          <hr>
+          <section id="skills">
+                  <header>
+                    <h2>skills</h2>
+                  </header>
+              <table>
+                  <thead>
+                  <tr>
+                      <th>Skill</th>
+                      <th>Keywords</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td style="width: 25%;">Software Development</td>
+                          <td class="keywords">C#, .Net, Javascript/Typescript, Node.js, SQL, Docker, Kubernetes, Golang, TDD/BDD</td>
+                      </tr>
+                      <tr>
+                          <td style="width: 25%;">DevOps</td>
+                          <td class="keywords">CI/CD, OpenTelemetry, Git, Github Actions, AWS, GCP</td>
+                      </tr>
+                      <tr>
+                          <td style="width: 25%;">SDLC</td>
+                          <td class="keywords">TFS, Jira, Agile, Scrum, Kanban, Github</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </section>
+
+      
+          <hr>
+          <section id="projects">
+                  <header>
+                    <h2>projects</h2>
+                  </header>
+                      <div>
+                          <h3>
+                                  <a href="http://letterbook.com">Letterbook</a>,
+                              <em>Maintainer (open source) (Open source)</em>
+                          </h3>
+      
+                          <p><span class="keywords">
+                              <span class="keyword-bubble">ActivityPub</span><span class="keyword-bubble">C#</span><span class="keyword-bubble">Asp.net core</span><span class="keyword-bubble">Postgres</span><span class="keyword-bubble">Self-hosted</span><span class="keyword-bubble">OpenTelemetry</span>
+                          </span></p>
+                          <em><p>Letterbook is a federated microblogging service, implementing ActivityPub. The goal for the project is to make hosting a fediverse server a better and more sustainable experience. We also want to make it a safer and more inclusive space for the people who make the fediverse their social media home.</p></em>
+                          <p><p>I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and other federated social media apps, with a focus on low cost, easy operations, and an inviting stance for other contributors. It&#39;s grown to have 5 or 6 semi-regular contributors and is nearing an alpha release. As the project creator and core maintainer, I&#39;ve done the large majority of the technical work, of course. Beyond that, I&#39;ve focussed on recruiting, on-boarding, and coordinating other contributors to create a long-term collaborative project.</p>
+      </p>
+                          <ul>
+                            <li>Federated microblogging platform, similar to Mastodon or Bluesky</li>
+                            <li>Flexible architecture to support, small single server deployments that can grow as-needed to high-capacity, high-availability, distributed systems</li>
+                            <li>Emphasis on observability, to enable independent admins to understand and manage their own software, and to better investigate problems when they arise</li>
+                            <li>Small but growing community of contributors</li>
+                            <li>Admins and moderators are a first-class priority</li>
+                            <li>Optimizing for performance on low cost, low powered hardware and global mobile networks and devices; targeting world-wide accessibility</li>
+                          </ul>
+                      </div>
+                      <div>
+                          <h3>
+                                  <a href="https://app.castify.com">Castify Studio</a>,
+                              <em>DevOps (professional) (Professional)</em>
+                          </h3>
+      
+                          <p><span class="keywords">
+                              <span class="keyword-bubble">Node.js</span><span class="keyword-bubble">OpenTelemetry</span><span class="keyword-bubble">GCP</span><span class="keyword-bubble">Postgres</span><span class="keyword-bubble">Docker</span><span class="keyword-bubble">Kubernetes</span><span class="keyword-bubble">Feature flags</span><span class="keyword-bubble">Github Actions</span>
+                          </span></p>
+                          <em><p>The new Castify Studio product is a 2nd generation of Screencastify&#39;s core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.</p></em>
+                          <p><p>I led the DevOps and SRE effort in the lead up to release and beyond. In my time here, I shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I put heavy emphasis on reliability, the developer experience including speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.</p>
+      </p>
+                          <ul>
+                            <li>Containerized architecture in GCP</li>
+                            <li>Mix of client-server request-response work, and dynamically scaled asynchronous processing mediated through a task queue in kubernetes</li>
+                            <li>Emphasis on observability; logs, metrics, traces, with the goal of making system behavior understandable and discoverable</li>
+                            <li>Docker compose based local development workflow, including traces and log collection</li>
+                            <li>Feature flags; enabling more rapid and controlled deployments, and as a tool to support operations, customer success, and product decision</li>
+                            <li>Blame-aware incident response and retrospectives focussed on building team confidence to participate in future incident response</li>
+                          </ul>
+                      </div>
+          </section>
+
+      
+      <hr>
+      <section id="employment">
+          <header>
+            <h2>employment</h2>
+          </header>
+          <div>
+            <h3><em>Staff Software Engineer</em>,
+              <a href="https://www.influxdata.com/">Influxdata</a>
+              </h3>
+              <span class="tenure">2023-03 — Present</span>
+              
+            <p><p>Influxdata is the company behind InfluxDB, a leading time series database for sensors, metrics, and IoT workloads. I&#39;ve built and supported internal dev tools and CI/CD infrastructure. I&#39;ve also supported the development, packaging, deployment, and operations of the on-prem and hosted single-tenant database products.</p>
+      </p>
+      <!--        <ul>
+        <li>Took over and maintained the pre-existing universal CICD pipeline, which served almost all teams and products</li>
+        <li>Refactored and migrated multiple products to their own CICD pipelines, which greatly reduced deployment risk and cross-team deadlocks</li>
+        <li>Maintained and enhanced the large jsonnet-based IAC ecosystem used to manage k8s deployment for all cloud hosted products</li>
+        <li>Developed the build and packaging pipelines for the on-prem product</li>
+        <li>Configured kube-prometheus monitoring and alerts</li>
+        <li>Participated in on-call rotations and customer support escalation</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">Kubernetes</span><span class="keyword-bubble">Jsonnet</span><span class="keyword-bubble">Golang</span><span class="keyword-bubble">ArgoCD</span><span class="keyword-bubble">Rust</span></span>-->
+          </div>
+          <div>
+            <h3><em>Staff Software Engineer, DevOps</em>,
+              <a href="https://screencastify.com">Screencastify</a>
+              </h3>
+              <span class="tenure">2022-05 — 2023-01</span>
+              
+            <p><p>Screencastify makes a screen recording application that&#39;s popular in k12 education. I joined to grow DevOps practices and culture within the engineering organization, and I think I&#39;ve been very successful in doing so. This has been a great team and a great experience, where I&#39;ve been able to put into practice many aspects of a DevOps working model that have been mostly theoretical for me in the past.</p>
+      </p>
+      <!--        <ul>
+        <li>Improved speed and reliability of the CICD pipeline by about 30% and 60% respectively, to a median run time less than 15 minutes</li>
+        <li>Drove observability efforts, including distributed tracing with OpenTelemetry</li>
+        <li>Led incident response and retrospectives, with a blame-aware process focussed on building team confidence to participate in future incident response</li>
+        <li>Technical lead for the DevOps team, coordinating both planned projects and interrupt-driven work, and building cross functional expertise within the team and department</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">Node.js</span><span class="keyword-bubble">GCP</span><span class="keyword-bubble">Postgres</span><span class="keyword-bubble">Docker</span><span class="keyword-bubble">Kubernetes</span><span class="keyword-bubble">Github</span><span class="keyword-bubble">Github Actions</span></span>-->
+          </div>
+          <div>
+            <h3><em>Staff Software Engineer</em>,
+              <a href="https://instil.io">Instil</a>
+              </h3>
+              <span class="tenure">2021-09 — 2022-03</span>
+              
+            <p><p>Instil is an early-stage startup that unfortunately did not have the product-market fit they thought they did when I joined. I tried to promote sustainable and effective development practices to support the team. At the same time, I also developed multiple significant features for their CRM product. But ultimately the unpredictability of searching for a market fit wasn&#39;t a good situation for me.</p>
+      </p>
+      <!--        <ul>
+        <li>Developed major features for the Instil CRM app, notably an audit log, data export, and 3rd party integration framework</li>
+        <li>Enhanced unit tests and decoupled a majority of tests from dependency on DynamoDB</li>
+        <li>Drove a reliability initiative, including early efforts at defining Service Level Objectives</li>
+        <li>Worked to define and codify architectural practices already in use, and provide guidance on future development</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">Python</span><span class="keyword-bubble">AWS</span><span class="keyword-bubble">Lambda</span><span class="keyword-bubble">DynamoDB</span><span class="keyword-bubble">Github</span><span class="keyword-bubble">Github Actions</span></span>-->
+          </div>
+          <div>
+            <h3><em>Senior Software Engineer</em>,
+              <a href="http://schwab.com">Charles Schwab</a>
+              </h3>
+              <span class="tenure">2019-08 — 2021-08</span>
+              
+            <p><p>I joined Schwab as the technical lead for a development team in the Retail Web Technology group. I worked on multiple projects, including a greenfield customer-facing cash transfer app. On that and other projects, I worked closely with designers and product owners and other development teams working in parallel to build backend services and mobile features.</p>
+      </p>
+      <!--        <ul>
+        <li>Maintained high standards of quality and code coverage.</li>
+        <li>Developed customer facing single page apps in Angular 7 and 9.</li>
+        <li>Developed middle-tier APIs in C#/.Net Core using Web API.</li>
+        <li>Worked with other development teams to define dependencies and communicate application interfaces.</li>
+        <li>Worked with multiple stakeholders in an agile process to scope and estimate new features, improve production operations, and maintain a predictable velocity.</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">C#</span><span class="keyword-bubble">Angular 7/9</span><span class="keyword-bubble">Web API</span><span class="keyword-bubble">REST</span><span class="keyword-bubble">Jira</span><span class="keyword-bubble">.Net Core</span><span class="keyword-bubble">TypeScript</span></span>-->
+          </div>
+          <div>
+            <h3><em>Senior Software Engineer</em>,
+              <a href="http://solera.com">Solera/Title Tech</a>
+              </h3>
+              <span class="tenure">2018-10 — 2019-08</span>
+              
+            <p><p>At Solera, I worked on customer facing products dealing with state and local laws, taxes, and fees related to vehicle sales, registration, and titling. I advocated for greater adoption of engineering best practices, especially surrounding continuous testing and deployment. I also coordinated with other teams in designing new service oriented architectures.</p>
+      </p>
+      <!--        <ul>
+        <li>Drove improvements in the development process and adoption of best practices, especially code review and unit testing.</li>
+        <li>Worked on a data normalization effort to enable major code refactoring to reduce duplication.</li>
+        <li>Collaborated across multiple teams to define common conventions and interfaces for REST microservices.</li>
+        <li>Implemented intake and cleanup utilities for 3rd party data.</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">C#</span><span class="keyword-bubble">Azure DevOps</span><span class="keyword-bubble">SQL</span><span class="keyword-bubble">WCF</span><span class="keyword-bubble">Web API</span><span class="keyword-bubble">REST</span><span class="keyword-bubble">Jira</span><span class="keyword-bubble">ASP.NET</span></span>-->
+          </div>
+          <div>
+            <h3><em>Senior Software Engineer</em>,
+              <a href="https://www.allegrodev.com/">Allegro Development</a>
+              </h3>
+              <span class="tenure">2017-11 — 2018-09</span>
+              
+            <p><p>At Allegro I led an overseas team in designing and building new features for Allegro&#39;s main product, Horizon. I also pushed to advance best practices including unit testing and DevOps.</p>
+      </p>
+      <!--        <ul>
+        <li>Designed and implemented scripting and automation features in the application. These were used by external clients to ensure data integrity and internally by QA and client services during customer onboarding.</li>
+        <li>Mentored junior developers on design principles and best practices.</li>
+        <li>Improved the packaging and deployment process for development builds to remove manual operations and support CI/CD efforts.</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">C#</span><span class="keyword-bubble">WPF</span><span class="keyword-bubble">WCF</span><span class="keyword-bubble">SQL</span><span class="keyword-bubble">TFS</span></span>-->
+          </div>
+          <div>
+            <h3><em>Senior Software Engineer</em>,
+              <a href="http://parkhub.com/">ParkHub</a>
+              </h3>
+              <span class="tenure">2017-03 — 2017-09</span>
+              
+            <p><p>At Parkhub, I built a new generation of services and infrastructure for a sensor-based parking lot monitoring service. I utilized IoT sensors, containerized microservices, and Kubernetes.</p>
+      </p>
+      <!--        <ul>
+        <li>Designed and built a charting API to transform sensor based parking event data into a format that&#39;s easily visualized in graphs or charts.</li>
+        <li>Contributed to the design and development of a microservices architecture based on Kafka and orchestrated with Kubernetes.</li>
+        <li>Developed front end apps, primarily using React and Redux.</li>
+        <li>Conducted code reviews and advocated for best practices related to testing and deployment.</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">Node.js</span><span class="keyword-bubble">React</span><span class="keyword-bubble">Redux</span><span class="keyword-bubble">Kafka</span><span class="keyword-bubble">Microservices</span><span class="keyword-bubble">Event Sourcing</span><span class="keyword-bubble">Postgres SQL</span><span class="keyword-bubble">Mongodb</span><span class="keyword-bubble">Kubernetes</span></span>-->
+          </div>
+          <div>
+            <h3><em>Senior Software Engineer</em>,
+              <a href="http://fidelity.com/">Fidelity Investments</a>
+              </h3>
+              <span class="tenure">2014-06 — 2017-03</span>
+              
+            <p><p>As a software engineer, led multiple very successful automated testing efforts. I also played a central role in the design and implementation of customer facing and middle tier applications. I promoted best practices and mentored junior team members throughout these projects.</p>
+      </p>
+      <!--        <ul>
+        <li>Designed and implemented multiple projects including a customer facing apps and middleware services; provided ongoing development and support after release.</li>
+        <li>Maintained greater than 90% test coverage for these projects.</li>
+        <li>Worked closely with Product Owner in Scrum process to clarify requirements and adapt them to user stories.</li>
+        <li>Estimated scope of stories and collaborated with the team to share work and meet sprint goals.</li>
+        <li>Promoted best practices using functional techniques and MVVM design patterns.</li>
+        <li>Implemented and maintained the CI/CD pipeline.</li>
+      </ul>
+      -->
+      <!--        <span class="keywords"><span class="keyword-bubble">AngularJS 1.x</span><span class="keyword-bubble">RxJS</span><span class="keyword-bubble">Node.js</span><span class="keyword-bubble">C#</span><span class="keyword-bubble">CI/CD</span><span class="keyword-bubble">Jenkins</span><span class="keyword-bubble">Jira</span><span class="keyword-bubble">DevOps</span></span>-->
+          </div>
+      </section>
+
+      
+      <hr>
+      <section id="education">
+          <header>
+            <h2>education</h2>
+          </header>
+          <div>
+            <h3><em>BS Software Engineering</em>, University of Texas at Arlington</h3>
+            <span class="tenure">2006-09 — 2010-06</span>
+            <p>Majored in Software Engineering, no degree</p>
+      
+            
+          </div>
+      </section>
+
+      
+
+      
+      <hr>
+      <section id="service">
+          <header>
+            <h2>other experience</h2>
+          </header>
+          <div>
+          <h3><em>Director</em>,
+            <a href="https://www.womenwhocode.com">Women Who Code DFW</a>
+          </h3>
+          <span class="tenure">2020-05 — 2020-10</span>
+          
+          <p><p>As a director, I was a member of the official leadership team for the DFW network of Women Who Code. I planned and organized monthly events; I coordinated with the hosts, sponsors, and presenters during the event; I recruited new hosts and speakers; and I helped to grow and mentor future members of the WWC DFW leadership team.</p>
+      </p>
+      <!--    <ul>
+        <li>Joined as a member in October 2018 and volunteered frequently.</li>
+        <li>Planned and hosted a virtual discussion panel and multiple tech talks.</li>
+        <li>Wrote articles for the DFW network&#39;s blog.</li>
+        <li>Gave multiple tech talks.</li>
+        <li>Mentored other members in professional and technical areas.</li>
+      </ul>
+      -->
+          </div>
+          <div>
+          <h3><em>Player</em>,
+            <a href="https://dnd.wizards.com/">Dungeons &amp; Dragons</a>
+          </h3>
+          <span class="tenure">2000-10 — Present</span>
+          
+          <p><p>I&#39;ve been playing and running D&amp;D and other tabletop role playing games regularly for over 20 years. Through that hobby, I&#39;ve gained a great deal of experience in working with small groups toward a common goal. Among other things, that includes: quickly learning and teaching complex systems, sharing focus and responsibility with the group, and finding balance between working toward a goal and enabling discovery.</p>
+      </p>
+      <!--    <ul>
+        <li>Quickly learning and teaching complex systems</li>
+        <li>Sharing focus and responsibility with group members</li>
+        <li>Finding balance between keeping focus on a goal with allowing exploration and discovery</li>
+        <li>Maintaining group interest and engagement</li>
+      </ul>
+      -->
+          </div>
+      </section>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </div>
+  </main>
+</html>
