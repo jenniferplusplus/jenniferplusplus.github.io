@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"no tests\" && exit 1",
     "build": "npx hackmyresume build jennifer.resume.json TO build/jennifer.all -t ./node_modules/fresh-theme-positive-plusplus-functional",
+    "build2": "npx hackmyresume build jennifer.resume.json TO build/jennifer.all -t ./node_modules/fresh-theme-positive-plusplus",
     "start": "npm run build",
     "html": "npx hackmyresume build jennifer.resume.json TO build/jennifer.html -t ./node_modules/fresh-theme-positive-plusplus-functional",
+    "html2": "npx hackmyresume build jennifer.resume.json TO build/jennifer.html -t ./node_modules/fresh-theme-positive-plusplus",
     "clean": "rm -rf build/"
   },
   "author": "Jennifer Moore <jenniferplusplus@gmail.com>",

@@ -38,7 +38,7 @@
         "employer": "Influxdata",
         "url": "https://www.influxdata.com/",
         "position": "Staff Software Engineer",
-        "summary": "Influxdata is the company behind InfluxDB, a leading time series database for telemetry and other workloads. I initially joined Influx to support their internal platform team, to spearhead updates to a variety of in-house build and deployment tooling that was struggling to keep up with the changes introduced by the upcoming release of InfluxDB 3.0. I later joined the development team responsible for InfluxDB Clustered, our on-prem enterprise product.",
+        "summary": "Influxdata is the company behind InfluxDB, a leading time series database for sensors, metrics, and IoT workloads. I've built and supported internal dev tools and CI/CD infrastructure. I've also supported the development, packaging, deployment, and operations of the on-prem and hosted single-tenant database products.",
         "start": "2023-03-01",
         "keywords": [
           "Kubernetes",
@@ -48,11 +48,12 @@
           "Rust"
         ],
         "highlights": [
-
-          "Improved speed and reliability of the CICD pipeline by about 30% and 60% respectively, to a median run time less than 15 minutes",
-          "Drove observability efforts, including distributed tracing with OpenTelemetry",
-          "Led incident response and retrospectives, with a blame-aware process focussed on building team confidence to participate in future incident response",
-          "Technical lead for the DevOps team, coordinating both planned projects and interrupt-driven work, and building cross functional expertise within the team and department"
+          "Took over and maintained the pre-existing universal CICD pipeline, which served almost all teams and products",
+          "Refactored and migrated multiple products to their own CICD pipelines, which greatly reduced deployment risk and cross-team deadlocks",
+          "Maintained and enhanced the large jsonnet-based IAC ecosystem used to manage k8s deployment for all cloud hosted products",
+          "Developed the build and packaging pipelines for the on-prem product",
+          "Configured kube-prometheus monitoring and alerts",
+          "Participated in on-call rotations and customer support escalation"
         ]
       },
       {
@@ -103,7 +104,7 @@
       {
         "employer": "Charles Schwab",
         "url": "http://schwab.com",
-        "position": "Staff Software Engineer",
+        "position": "Senior Software Engineer",
         "summary": "I joined Schwab as the technical lead for a development team in the Retail Web Technology group. I worked on multiple projects, including a greenfield customer-facing cash transfer app. On that and other projects, I worked closely with designers and product owners and other development teams working in parallel to build backend services and mobile features.",
         "start": "2019-08-26",
         "end": "2021-08-15",
@@ -151,7 +152,7 @@
       {
         "employer": "Allegro Development",
         "url": "https://www.allegrodev.com/",
-        "position": "Staff Software Engineer",
+        "position": "Senior Software Engineer",
         "summary": "At Allegro I led an overseas team in designing and building new features for Allegro's main product, Horizon. I also pushed to advance best practices including unit testing and DevOps.",
         "start": "2017-11-01",
         "end": "2018-09-01",
@@ -267,11 +268,11 @@
   "projects": [
     {
       "title": "Letterbook",
-      "category": "Personal, open source",
-      "url": "http://letterbookhq.com",
+      "category": "Open source",
+      "url": "http://letterbook.com",
       "repo": "https://github.com/Letterbook/Letterbook",
       "media": [],
-      "role": "Creator",
+      "role": "Maintainer (open source)",
       "summary": "I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and other federated social media apps, with a focus on low cost, easy operations, and an inviting stance for other contributors. It's grown to have 5 or 6 semi-regular contributors and is nearing an alpha release. As the project creator and core maintainer, I've done the large majority of the technical work, of course. Beyond that, I've focussed on recruiting, on-boarding, and coordinating other contributors to create a long-term collaborative project.",
       "description": "Letterbook is a federated microblogging service, implementing ActivityPub. The goal for the project is to make hosting a fediverse server a better and more sustainable experience. We also want to make it a safer and more inclusive space for the people who make the fediverse their social media home.",
       "highlights": [
@@ -297,12 +298,12 @@
       "url": "https://app.castify.com",
       "repo": "",
       "media": [],
-      "role": "DevOps",
-      "summary": "I led the DevOps and SRE effort during the latter half of the pre-release development and beyond. In my time here, I've shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I've put heavy emphasis on reliability, the developer experience including speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
+      "role": "DevOps (professional)",
+      "summary": "I led the DevOps and SRE effort in the lead up to release and beyond. In my time here, I shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I put heavy emphasis on reliability, the developer experience including speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.",
       "description": "The new Castify Studio product is a 2nd generation of Screencastify's core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.",
       "highlights": [
         "Containerized architecture in GCP",
-        "Mix of client-server request-response work, and asynchronous processing mediated through a task queue",
+        "Mix of client-server request-response work, and dynamically scaled asynchronous processing mediated through a task queue in kubernetes",
         "Emphasis on observability; logs, metrics, traces, with the goal of making system behavior understandable and discoverable",
         "Docker compose based local development workflow, including traces and log collection",
         "Feature flags; enabling more rapid and controlled deployments, and as a tool to support operations, customer success, and product decision",
@@ -318,7 +319,9 @@
         "Feature flags",
         "Github Actions"
       ]
-    },
+    }
+  ],
+  "historical projects": [
     {
       "title": "Parkhub IoT",
       "category": "Professional",
@@ -342,32 +345,6 @@
         "Microservices",
         "Node.js",
         "MongoDB"
-      ]
-    }
-  ],
-  "historical projects": [
-    {
-      "title": "Smalltalk",
-      "category": "Personal",
-      "url": "",
-      "repo": "",
-      "media": [],
-      "role": "Creator",
-      "summary": "Smalltalk is an ongoing personal project that I'm building out of a desire to have an app like this. It also serves as a space to experiment and refine my understanding of various cloud architecture patterns. It's built and deployed in Azure, primarily because of the superior cost controls and serverless developer experience.",
-      "description": "Smalltalk is an unreleased (for now) app that aims to help distributed teams maintain a sense of personal contact with each other by collecting current local news for the home base of each of the team members.",
-      "highlights": [
-        "Serverless architecture deployed in Azure",
-        "Azure functions app",
-        "Cloud Components architecture",
-        "Entity framework",
-        "Frontend TBD, likely Blazor"
-      ],
-      "keywords": [
-        "Azure",
-        "Serverless",
-        "C#",
-        "SQL",
-        "Azure Functions"
       ]
     },
     {
@@ -458,7 +435,7 @@
         "flavor": "volunteer",
         "position": "Director",
         "organization": "Women Who Code DFW",
-        "url": "https://www.womenwhocode.com/dfw",
+        "url": "https://www.womenwhocode.com",
         "start": "2020-05",
         "end": "2020-10",
         "summary": "As a director, I was a member of the official leadership team for the DFW network of Women Who Code. I planned and organized monthly events; I coordinated with the hosts, sponsors, and presenters during the event; I recruited new hosts and speakers; and I helped to grow and mentor future members of the WWC DFW leadership team.",
@@ -490,12 +467,12 @@
         "flavor": "volunteer",
         "position": "General Technical Lead",
         "organization": "Women Who Code DFW",
-        "url": "https://www.womenwhocode.com/dfw",
+        "url": "https://www.womenwhocode.com",
         "start": "2019-06",
         "end": "2020-05",
         "summary": "Members of Women Who Code can become Technical Leads for their chapters by active participation and support of the chapter and community.",
         "highlights": [
-          "Gave multiple tech talks, <a href=\"https://jenniferplusplus.com/portfolio/\"><em>Unit Testing: How do I even?</em> and <em>Designing for Testability</em></a>",
+          "Gave multiple tech talks",
           "Volunteered at events by greeting new members, coordinating food deliveries, and filming.",
           "Supported special events by helping with mock interviews and advising during hackathons."
         ]
