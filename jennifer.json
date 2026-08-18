@@ -24,13 +24,13 @@
       "website": "https://www.influxdata.com/",
       "position": "Staff Software Engineer",
       "startDate": "2023-03-01",
-      "summary": "Influxdata is the company behind InfluxDB, a leading time series database for sensors, metrics, and IoT workloads. I've built and supported internal dev tools and CI/CD infrastructure. I've also supported the development, packaging, deployment, and operations of the on-prem and hosted single-tenant database products.",
+      "summary": "Influxdata is the company behind InfluxDB, a leading time series database for sensors, metrics, and IoT workloads. At Influx, I've primarily worked on the hosting platform for the managed InfluxDB products. I contributed to the design and development of Kubernetes controllers to deploy, manage, and monitor hosted databases. I lead the development of the automated test and verification tooling for that platform. Additionally I've built and supported internal dev tools, CI/CD infrastructure, and the packaging and release of on-prem database products.",
       "highlights": [
         "Took over and maintained the pre-existing universal CICD pipeline, which served almost all teams and products",
         "Refactored and migrated multiple products to their own CICD pipelines, which greatly reduced deployment risk and cross-team deadlocks",
-        "Maintained and enhanced the large jsonnet-based IAC ecosystem used to manage k8s deployment for all cloud hosted products",
-        "Developed the build and packaging pipelines for the on-prem product",
-        "Configured kube-prometheus monitoring and alerts",
+        "Maintained and enhanced large Jsonnet and Terraform IAC ecosystem used to manage infrastructure for all cloud hosted products",
+        "Built customer-facing metrics features",
+        "Designed and built the v3 cloud hosting system as a series of kubernetes controllers",
         "Participated in on-call rotations and customer support escalation"
       ]
     },

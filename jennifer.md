@@ -16,12 +16,12 @@ I support engineering teams to grow and become very high performing and effectiv
 
 ### *Staff Software Engineer*, [Influxdata](https://www.influxdata.com/) (2023-03 — Present)
 
-Influxdata is the company behind InfluxDB, a leading time series database for sensors, metrics, and IoT workloads. I've built and supported internal dev tools and CI/CD infrastructure. I've also supported the development, packaging, deployment, and operations of the on-prem and hosted single-tenant database products.
+Influxdata is the company behind InfluxDB, a leading time series database for sensors, metrics, and IoT workloads. At Influx, I've primarily worked on the hosting platform for the managed InfluxDB products. I contributed to the design and development of Kubernetes controllers to deploy, manage, and monitor hosted databases. I lead the development of the automated test and verification tooling for that platform. Additionally I've built and supported internal dev tools, CI/CD infrastructure, and the packaging and release of on-prem database products.
   - Took over and maintained the pre-existing universal CICD pipeline, which served almost all teams and products
   - Refactored and migrated multiple products to their own CICD pipelines, which greatly reduced deployment risk and cross-team deadlocks
-  - Maintained and enhanced the large jsonnet-based IAC ecosystem used to manage k8s deployment for all cloud hosted products
-  - Developed the build and packaging pipelines for the on-prem product
-  - Configured kube-prometheus monitoring and alerts
+  - Maintained and enhanced large Jsonnet and Terraform IAC ecosystem used to manage infrastructure for all cloud hosted products
+  - Built customer-facing metrics features
+  - Designed and built the v3 cloud hosting system as a series of kubernetes controllers
   - Participated in on-call rotations and customer support escalation
 
 ### *Staff Software Engineer, DevOps*, [Screencastify](https://screencastify.com) (2022-05 — 2023-01)
@@ -85,7 +85,26 @@ As a software engineer, led multiple very successful automated testing efforts. 
 
 ## PROJECTS
 
-### *Maintainer (open source)*, [Letterbook](http://letterbook.com) (??? — Present)
+### *Developer*, [InfluxDB 3 Cloud](https://www.influxdata.com/products/influxdb3-enterprise/) (??? — Present)
+
+InfluxDB 3 Cloud is the official hosting platform for managed instances of the InfluxDB 3 timeseries database. The platform provides a fully-managed customer experience, and allows for custom database configurations to accomodate a wide variety of customer workloads at nearly any scale.
+As a member of the Platform team, I designed and built significant portions of the InfluxDB 3 Cloud hosting platform. The platform itself is designed as a collection of kubernetes controllers that use Cluster API to provision, scale, and maintain kubernetes clusters in multiple selected regions across multiple cloud providers. Other controllers similarly deploy and reconcile instances of InfluxDB into those clusters, with options to adjust the scale, settings, and configuration of the instances, according to customer workloads. I have taken a particular focus on the test and verification tooling we use to get rapid feedback and stable deployments for increasingly AI-driven development workflows.
+  - IAC-driven reproducible environments
+
+  - Highly observable with central collection of distributed logs and metrics
+
+  - Fast, atomic, and reproducible releases (managed as OCI artifacts) that encapsulate both code and config
+
+  - Continuous verification of releases with more extensive load and regression testing, on-demand
+
+  - Robust CLI tooling to inspect and manage the platform, and locally develop and reproduce controller behavior
+
+  - Well integrated with billing systems, and the management console used by customers and the support team
+
+  - Cost-optimized for both customers and InfluxData, with optional autoscaling, traffic monitoring, and periodic node consolidation
+
+
+### *Maintainer*, [Letterbook](http://letterbook.com) (??? — Present)
 
 Letterbook is a federated microblogging service, implementing ActivityPub. The goal for the project is to make hosting a fediverse server a better and more sustainable experience. We also want to make it a safer and more inclusive space for the people who make the fediverse their social media home.
 I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and other federated social media apps, with a focus on low cost, easy operations, and an inviting stance for other contributors. It's grown to have 5 or 6 semi-regular contributors and is nearing an alpha release. As the project creator and core maintainer, I've done the large majority of the technical work, of course. Beyond that, I've focussed on recruiting, on-boarding, and coordinating other contributors to create a long-term collaborative project.
@@ -99,24 +118,7 @@ I began Letterbook in the 2nd half of 2023 as an alternative to Mastodon and oth
 
   - Admins and moderators are a first-class priority
 
-  - Optimizing for performance on low cost, low powered hardware and global mobile networks and devices; targeting world-wide accessibility
-
-
-### *DevOps (professional)*, [Castify Studio](https://app.castify.com) (??? — Present)
-
-The new Castify Studio product is a 2nd generation of Screencastify's core screen-recording app. This evolves the product from a standalone application into a complete service, which provides a much better experience for the basic record/edit/share workflow, and will enable the company to support a much richer set of features going forward.
-I led the DevOps and SRE effort in the lead up to release and beyond. In my time here, I shifted the DevOps team away from a purely reactive catchall group doing infrastructure toil, to one that actively makes improvements to the workflows and process of the whole engineering organization. I put heavy emphasis on reliability, the developer experience including speed and reliability of CICD, the observability of our systems, and ease and safety of deployment.
-  - Containerized architecture in GCP
-
-  - Mix of client-server request-response work, and dynamically scaled asynchronous processing mediated through a task queue in kubernetes
-
-  - Emphasis on observability; logs, metrics, traces, with the goal of making system behavior understandable and discoverable
-
-  - Docker compose based local development workflow, including traces and log collection
-
-  - Feature flags; enabling more rapid and controlled deployments, and as a tool to support operations, customer success, and product decision
-
-  - Blame-aware incident response and retrospectives focussed on building team confidence to participate in future incident response
+  - Optimizing for performance on low cost, low powered hardware and global mobile networks and devices
 
 
 
